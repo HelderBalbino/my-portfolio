@@ -1,13 +1,8 @@
 ### react ###
-.DS_Store
-.DS_*
 *.log
 logs
 **/*.backup.*
 **/*.back.*
-
-node_modules
-bower_components
 
 ### NextJS ###
 # dependencies
@@ -19,24 +14,28 @@ bower_components
 /coverage
 
 # next.js
-/.next/
-/out/
+.next
+out
 
 # production
 /build
 
 # misc
-.DS_Store
 *.pem
-
 # debug
-npm-debug.log*
+# macOS
+.DS_Store
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 .env*.local
+.env
 
 # vercel
 .vercel
@@ -48,3 +47,10 @@ next-env.d.ts
 ### Serverless ###
 # Ignore build directory
 .serverless
+
+# dist directory
+dist
+
+# npm
+npm-debug.log*
+
