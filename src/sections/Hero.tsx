@@ -23,6 +23,7 @@ export const HeroSection = () => {
 						<ArrowDown />
 					</button>
 					<button>
+						<span>👋🏽</span>
 						<span>Let's connect'</span>
 					</button>
 				</div>
