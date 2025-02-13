@@ -1,5 +1,6 @@
 import memojiImage from '@/assets/images/memoji-computer.png';
 import Image from 'next/image';
+import ArrowDown from '@/assets/icons/arrow-down.svg';
 
 export const HeroSection = () => {
 	return (
@@ -19,6 +20,10 @@ export const HeroSection = () => {
 				<div>
 					<button>
 						<span>Explore my work</span>
+						<ArrowDown />
+					</button>
+					<button>
+						<span>Let's connect'</span>
 					</button>
 				</div>
 			</div>
