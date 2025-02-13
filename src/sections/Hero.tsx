@@ -16,6 +16,11 @@ export const HeroSection = () => {
 					performing websites and web applications. Let's discuss your
 					project and see how I can help.
 				</p>
+				<div>
+					<button>
+						<span>Explore my work</span>
+					</button>
+				</div>
 			</div>
 		</div>
 	);
