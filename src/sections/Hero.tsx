@@ -6,7 +6,11 @@ export const HeroSection = () => {
 	return (
 		<div className='py-20'>
 			<div className='container'>
-				<Image src={memojiImage} alt='Memoji' />
+				<Image
+					src={memojiImage}
+					className='size-[100px]'
+					alt='Memoji'
+				/>
 				<div>
 					<div></div>
 					<div>Available for new projects</div>
