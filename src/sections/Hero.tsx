@@ -12,7 +12,7 @@ export const HeroSection = () => {
 						className='size-[100px]'
 						alt='Memoji'
 					/>
-					<div>
+					<div className='bg-gray-950 border-2 border-gray-800 px-4 py-1.5 inline-flex'>
 						<div></div>
 						<div>Available for new projects</div>
 					</div>
