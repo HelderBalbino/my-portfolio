@@ -4,7 +4,7 @@ import ArrowDown from '@/assets/icons/arrow-down.svg';
 
 export const HeroSection = () => {
 	return (
-		<div>
+		<div className='py-20'>
 			<div className='container'>
 				<Image src={memojiImage} alt='Memoji' />
 				<div>
