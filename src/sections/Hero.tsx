@@ -6,14 +6,16 @@ export const HeroSection = () => {
 	return (
 		<div className='py-20'>
 			<div className='container'>
-				<Image
-					src={memojiImage}
-					className='size-[100px]'
-					alt='Memoji'
-				/>
-				<div>
-					<div></div>
-					<div>Available for new projects</div>
+				<div className='flex flex-col items-center'>
+					<Image
+						src={memojiImage}
+						className='size-[100px]'
+						alt='Memoji'
+					/>
+					<div>
+						<div></div>
+						<div>Available for new projects</div>
+					</div>
 				</div>
 				<h1>Building exceptional user experiences</h1>
 				<p>
