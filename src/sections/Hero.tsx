@@ -32,9 +32,7 @@ export const HeroSection = () => {
 					</button>
 					<button>
 						<span>👋🏽</span>
-						<span className='bg-gray-950 border-2'>
-							Let's connect'
-						</span>
+						<span>Let's connect'</span>
 					</button>
 				</div>
 			</div>
