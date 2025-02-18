@@ -25,7 +25,9 @@ export const HeroSection = () => {
 				</p>
 				<div>
 					<button>
-						<span>Explore my work</span>
+						<span className='bg-gray-950 border-2'>
+							Explore my work
+						</span>
 						<ArrowDown />
 					</button>
 					<button>
