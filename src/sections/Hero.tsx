@@ -31,7 +31,7 @@ export const HeroSection = () => {
 						<ArrowDown />
 					</button>
 					<button>
-						<span>👋🏽</span>
+						<span className='flex flex-col items-center'>👋🏽</span>
 						<span>Let's connect'</span>
 					</button>
 				</div>
