@@ -25,7 +25,9 @@ export const HeroSection = () => {
 				</p>
 				<div>
 					<button>
-						<span>Explore my work</span>
+						<span className='flex flex-col items-center'>
+							Explore my work
+						</span>
 						<ArrowDown />
 					</button>
 					<button>
