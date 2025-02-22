@@ -14,7 +14,9 @@ export const HeroSection = () => {
 					/>
 					<div className='bg-gray-950 border-2 border-gray-800 px-4 py-1.5 inline-flex'>
 						<div></div>
-						<div>Available for new projects</div>
+						<div className='text-sm font-medium'>
+							Available for new projects
+						</div>
 					</div>
 				</div>
 				<h1>Building exceptional user experiences</h1>
