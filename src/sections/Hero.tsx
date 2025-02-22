@@ -19,7 +19,7 @@ export const HeroSection = () => {
 						</div>
 					</div>
 				</div>
-				<h1 className='font-serif text-3xl text-center mt-8'>
+				<h1 className='font-serif text-3xl text-center mt-8 tracking-wide'>
 					Building exceptional user experiences
 				</h1>
 				<p>
