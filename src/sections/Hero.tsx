@@ -22,7 +22,7 @@ export const HeroSection = () => {
 				<h1 className='font-serif text-3xl text-center mt-8 tracking-wide'>
 					Building exceptional user experiences
 				</h1>
-				<p>
+				<p className='mt-4 text-center text-white/60'>
 					I specialize in transforming designs into functional, high
 					performing websites and web applications. Let's discuss your
 					project and see how I can help.
