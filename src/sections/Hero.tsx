@@ -27,10 +27,10 @@ export const HeroSection = () => {
 					performing websites and web applications. Let's discuss your
 					project and see how I can help.
 				</p>
-				<div>
+				<div className='flex flex-col'>
 					<button>
 						<span>Explore my work</span>
-						<ArrowDown />
+						<ArrowDown className='size-4' />
 					</button>
 					<button>
 						<span>👋🏽</span>
