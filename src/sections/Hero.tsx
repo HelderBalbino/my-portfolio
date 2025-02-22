@@ -28,7 +28,7 @@ export const HeroSection = () => {
 					project and see how I can help.
 				</p>
 				<div className='flex flex-col'>
-					<button>
+					<button className='inline-flex items-center gap-2 mt-8'>
 						<span>Explore my work</span>
 						<ArrowDown className='size-4' />
 					</button>
