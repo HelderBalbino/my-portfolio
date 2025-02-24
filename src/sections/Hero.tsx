@@ -28,7 +28,7 @@ export const HeroSection = () => {
 					project and see how I can help.
 				</p>
 				<div className='flex flex-col items-center'>
-					<button className='inline-flex items-center gap-2 border border-white/15'>
+					<button className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl'>
 						<span>Explore my work</span>
 						<ArrowDown className='size-4' />
 					</button>
