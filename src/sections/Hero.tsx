@@ -32,7 +32,7 @@ export const HeroSection = () => {
 						<span className='font-semibold'>Explore my work</span>
 						<ArrowDown className='size-4' />
 					</button>
-					<button>
+					<button className='	inline-flex items-center gap-2 border border-white bg-white text-gray-900'>
 						<span>👋🏽</span>
 						<span>Let's connect'</span>
 					</button>
