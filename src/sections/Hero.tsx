@@ -1,6 +1,7 @@
 import memojiImage from '@/assets/images/memoji-computer.png';
 import Image from 'next/image';
 import ArrowDown from '@/assets/icons/arrow-down.svg';
+import grainImage from '@/assets/images/grain.png';
 
 export const HeroSection = () => {
 	return (
