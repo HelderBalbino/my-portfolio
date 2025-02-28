@@ -10,6 +10,7 @@ export const HeroSection = () => {
 				className='absolute inset-0 -z-30 opacity-5'
 				style={{ backgroundImage: `url(${grainImage.src})` }}
 			></div>
+			<div className='absolute inset-0'></div>
 			<div className='container'>
 				<div className='flex flex-col items-center'>
 					<Image
