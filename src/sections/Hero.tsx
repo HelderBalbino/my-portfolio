@@ -1,11 +1,15 @@
 import memojiImage from '@/assets/images/memoji-computer.png';
 import Image from 'next/image';
 import ArrowDown from '@/assets/icons/arrow-down.svg';
-import grainImage from '@/assets/images/grain.png';
+import grainImage from '@/assets/images/grain.jpg';
 
 export const HeroSection = () => {
 	return (
-		<div className='py-32 md:py-48 lg:py-60'>
+		<div className='py-32 md:py-48 lg:py-60 relative'>
+			<div
+				className='absolute inset-0'
+				style={{ backgroundImage: `url(${grainImage.src})` }}
+			></div>
 			<div className='container'>
 				<div className='flex flex-col items-center'>
 					<Image
