@@ -13,6 +13,7 @@ export const HeroSection = () => {
 			<div className='size-[620px] hero-ring'></div>
 			<div className='size-[820px] hero-ring'></div>
 			<div className='size-[1020px] hero-ring'></div>
+			<div className='size-[1220px] hero-ring'></div>
 
 			<div className='container'>
 				<div className='flex flex-col items-center'>
