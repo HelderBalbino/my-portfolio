@@ -11,10 +11,12 @@ export const HeroSection = () => {
 				className='absolute inset-0 -z-30 opacity-5'
 				style={{ backgroundImage: `url(${grainImage.src})` }}
 			></div>
+			{/* rings */}
 			<div className='size-[620px] hero-ring'></div>
 			<div className='size-[820px] hero-ring'></div>
 			<div className='size-[1020px] hero-ring'></div>
 			<div className='size-[1220px] hero-ring'></div>
+			{/* stars icons */}
 			<div className='absolute'>
 				<StarIcon className='size-28 text-emerald-300' />
 			</div>
