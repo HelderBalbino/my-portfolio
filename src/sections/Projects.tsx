@@ -46,6 +46,21 @@ export const ProjectsSection = () => {
 		<div>
 			<div className='container'>
 				<p>Real-world Results</p>
+				<h2>Featured Projects</h2>
+				<p>
+					See how I transformed concepts into engaging digital
+					experiences
+				</p>
+				<div>
+					{portfolioProjects.map((project) => (
+						<div key={project.title}>
+							<div>
+								<span>{project.company}</span>
+								<span>{project.year}</span>
+							</div>
+						</div>
+					))}
+				</div>
 			</div>
 		</div>
 	);
