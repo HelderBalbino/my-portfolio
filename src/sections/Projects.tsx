@@ -58,6 +58,7 @@ export const ProjectsSection = () => {
 								<span>{project.company}</span>
 								<span>{project.year}</span>
 							</div>
+							<h3>{project.title}</h3>
 						</div>
 					))}
 				</div>
