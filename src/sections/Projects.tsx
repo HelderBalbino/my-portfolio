@@ -66,7 +66,7 @@ export const ProjectsSection = () => {
 									<li>{result.title}</li>
 								))}
 							</ul>
-							<a href='{project.link}'>
+							<a href={project.link}>
 								<button>View Live Site</button>
 							</a>
 							<Image src={project.image} alt={project.title} />
