@@ -59,6 +59,11 @@ export const ProjectsSection = () => {
 								<span>{project.year}</span>
 							</div>
 							<h3>{project.title}</h3>
+							<ul>
+								{project.results.map((result) => (
+									<li>{result.title}</li>
+								))}
+							</ul>
 						</div>
 					))}
 				</div>
