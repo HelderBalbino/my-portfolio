@@ -9,7 +9,7 @@ const portfolioProjects = [
 		year: '2022',
 		title: 'Dark Saas Landing Page',
 		results: [
-			{ title: 'Enhanced user experience by 40%' },
+			{ title: 'Enhanced user experience by 30%' },
 			{ title: 'Improved site speed by 50%' },
 			{ title: 'Increased mobile traffic by 35%' },
 		],
@@ -21,7 +21,7 @@ const portfolioProjects = [
 		year: '2021',
 		title: 'Light Saas Landing Page',
 		results: [
-			{ title: 'Boosted sales by 20%' },
+			{ title: 'Boosted sales by 50%' },
 			{ title: 'Expanded customer reach by 35%' },
 			{ title: 'Increased brand awareness by 15%' },
 		],
