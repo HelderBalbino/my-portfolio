@@ -17,7 +17,7 @@ const portfolioProjects = [
 		image: darkSaasLandingPage,
 	},
 	{
-		company: 'Innovative Co',
+		company: 'Innovative',
 		year: '2021',
 		title: 'Light Saas Landing Page',
 		results: [
