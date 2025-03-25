@@ -62,7 +62,7 @@ export const ProjectsSection = () => {
 					{portfolioProjects.map((project) => (
 						<div
 							key={project.title}
-							className='bg-gray-800 rounded-3xl'
+							className='bg-gray-800 rounded-3xl relative'
 						>
 							<div>
 								<span>{project.company}</span>
