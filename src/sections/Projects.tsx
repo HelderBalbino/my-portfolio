@@ -60,7 +60,10 @@ export const ProjectsSection = () => {
 				</p>
 				<div className='flex flex-col mt-10'>
 					{portfolioProjects.map((project) => (
-						<div key={project.title} className='bg-gray-800'>
+						<div
+							key={project.title}
+							className='bg-gray-800 rounded-3xl'
+						>
 							<div>
 								<span>{project.company}</span>
 								<span>{project.year}</span>
