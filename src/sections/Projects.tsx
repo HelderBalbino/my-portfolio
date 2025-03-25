@@ -46,7 +46,9 @@ export const ProjectsSection = () => {
 	return (
 		<div>
 			<div className='container'>
-				<p>Real-world Results</p>
+				<p className='uppercase font-semibold tracking-widest'>
+					Real-world Results
+				</p>
 				<h2>Featured Projects</h2>
 				<p>
 					See how I transformed concepts into engaging digital
