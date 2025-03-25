@@ -47,7 +47,7 @@ export const ProjectsSection = () => {
 		<div>
 			<div className='container'>
 				<div className='flex justify-center'>
-					<p className='uppercase font-semibold tracking-widest'>
+					<p className='uppercase font-semibold tracking-widest bg-gradient-to-r'>
 						Real-world Results
 					</p>
 				</div>
