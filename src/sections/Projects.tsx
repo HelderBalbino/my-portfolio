@@ -58,9 +58,9 @@ export const ProjectsSection = () => {
 					See how I transformed concepts into engaging digital
 					experiences
 				</p>
-				<div className='flex flex-col'>
+				<div className='flex flex-col mt-10'>
 					{portfolioProjects.map((project) => (
-						<div key={project.title}>
+						<div key={project.title} className='bg-gray-800'>
 							<div>
 								<span>{project.company}</span>
 								<span>{project.year}</span>
