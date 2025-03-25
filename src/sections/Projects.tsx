@@ -51,12 +51,14 @@ export const ProjectsSection = () => {
 						Real-world Results
 					</p>
 				</div>
-				<h2>Featured Projects</h2>
-				<p>
+				<h2 className='font-serif text-3xl text-center mt-7'>
+					Featured Projects
+				</h2>
+				<p className='text-center text-white/60 mt-6'>
 					See how I transformed concepts into engaging digital
 					experiences
 				</p>
-				<div>
+				<div className='flex flex-col'>
 					{portfolioProjects.map((project) => (
 						<div key={project.title}>
 							<div>
