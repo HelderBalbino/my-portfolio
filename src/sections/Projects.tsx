@@ -78,8 +78,8 @@ export const ProjectsSection = () => {
 							<hr className='border-t-2 border-white/5 mt-9' />
 							<ul>
 								{project.results.map((result) => (
-									<span>
-										<CheckCircleIcon className='w-5 h-5 text-emerald-300 inline' />
+									<span className='flex gap-2 text-sm ext-white/60 mt-4'>
+										<CheckCircleIcon className='size-5 text-emerald-300 inline' />
 										<li>{result.title}</li>
 									</span>
 								))}
