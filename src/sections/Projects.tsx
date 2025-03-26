@@ -71,7 +71,7 @@ export const ProjectsSection = () => {
 									<span>{project.year}</span>
 								</div>
 							</div>
-							<h3>{project.title}</h3>
+							<h3 className='font-serif'>{project.title}</h3>
 							<hr />
 							<ul>
 								{project.results.map((result) => (
