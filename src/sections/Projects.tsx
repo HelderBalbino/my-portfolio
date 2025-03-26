@@ -62,11 +62,13 @@ export const ProjectsSection = () => {
 					{portfolioProjects.map((project) => (
 						<div
 							key={project.title}
-							className='bg-gray-800 rounded-3xl relative z-0 overflow-hidden after:-z-10 after:content-[""] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20'
+							className='bg-gray-800 rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[""] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20'
 						>
 							<div>
-								<span>{project.company}</span>
-								<span>{project.year}</span>
+								<div>
+									<span>{project.company}</span>
+									<span>{project.year}</span>
+								</div>
 							</div>
 							<h3>{project.title}</h3>
 							<hr />
