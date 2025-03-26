@@ -74,7 +74,7 @@ export const ProjectsSection = () => {
 							<h3 className='font-serif text-2xl mt-2'>
 								{project.title}
 							</h3>
-							<hr className='border-t-2 border-white/5' />
+							<hr className='border-t-2 border-white/5 mt-4' />
 							<ul>
 								{project.results.map((result) => (
 									<li>{result.title}</li>
