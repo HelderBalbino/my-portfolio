@@ -91,7 +91,11 @@ export const ProjectsSection = () => {
 									<ArrowUpRightIcon className='size-4' />
 								</button>
 							</a>
-							<Image src={project.image} alt={project.title} />
+							<Image
+								src={project.image}
+								alt={project.title}
+								className='mt-8'
+							/>
 						</div>
 					))}
 				</div>
