@@ -46,7 +46,7 @@ const portfolioProjects = [
 
 export const ProjectsSection = () => {
 	return (
-		<div>
+		<section>
 			<div className='container'>
 				<div className='flex justify-center'>
 					<p className='uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-center text-transparent bg-clip-text'>
@@ -100,6 +100,6 @@ export const ProjectsSection = () => {
 					))}
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
