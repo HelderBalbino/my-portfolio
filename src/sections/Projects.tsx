@@ -101,7 +101,7 @@ export const ProjectsSection = () => {
 							<Image
 								src={project.image}
 								alt={project.title}
-								className='mt-8'
+								className='mt-10'
 							/>
 						</div>
 					))}
