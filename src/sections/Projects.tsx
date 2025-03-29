@@ -83,7 +83,7 @@ export const ProjectsSection = () => {
 							<h3 className='font-serif text-2xl mt-2'>
 								{project.title}
 							</h3>
-							<hr className='border-t-2 border-white/5 mt-8' />
+							<hr className='border-t-2 border-white/5 mt-6' />
 							<ul className='flex flex-col gap-4 mt-4'>
 								{project.results.map((result) => (
 									<li className='flex gap-2 text-sm text-white/50'>
@@ -101,7 +101,7 @@ export const ProjectsSection = () => {
 							<Image
 								src={project.image}
 								alt={project.title}
-								className='mt-10'
+								className='mt-8'
 							/>
 						</div>
 					))}
