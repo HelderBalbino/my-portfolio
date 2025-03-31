@@ -80,7 +80,7 @@ export const ProjectsSection = () => {
 									<span>{project.year}</span>
 								</div>
 							</div>
-							<h3 className='font-serif text-2xl mt-2'>
+							<h3 className='font-serif text-2xl mt-2 md:text-4xl'>
 								{project.title}
 							</h3>
 							<hr className='border-t-2 border-white/5 mt-6' />
