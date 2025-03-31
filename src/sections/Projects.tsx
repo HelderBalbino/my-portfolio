@@ -61,7 +61,7 @@ export const ProjectsSection = () => {
 					See how I transformed concepts into engaging digital
 					experiences
 				</p>
-				<div className='flex flex-col gap-28 mt-10'>
+				<div className='flex flex-col gap-28 mt-10 md:mt-20'>
 					{portfolioProjects.map((project) => (
 						<div
 							key={project.title}
