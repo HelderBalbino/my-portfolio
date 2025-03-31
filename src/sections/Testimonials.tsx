@@ -6,7 +6,7 @@ import memojiAvatar5 from '@/assets/images/memoji-avatar-5.png';
 
 const testimonials = [
 	{
-		name: 'Alex Turner',
+		name: 'Alex',
 		position: 'Marketing Manager @ TechStartups',
 		text: "Helder was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
 		avatar: memojiAvatar1,
