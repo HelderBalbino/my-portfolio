@@ -83,7 +83,7 @@ export const ProjectsSection = () => {
 							<h3 className='font-serif text-2xl mt-2 md:mt-5 md:text-4xl'>
 								{project.title}
 							</h3>
-							<hr className='border-t-2 border-white/5 mt-6' />
+							<hr className='border-t-2 border-white/5 mt-4 md:mt-5' />
 							<ul className='flex flex-col gap-4 mt-4'>
 								{project.results.map((result) => (
 									<li className='flex gap-2 text-sm text-white/50'>
