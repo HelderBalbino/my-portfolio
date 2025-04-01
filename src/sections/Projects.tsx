@@ -58,7 +58,7 @@ export const ProjectsSection = () => {
 					Featured Projects
 				</h2>
 				<p className='text-center md:text-lg lg:text-xl text-white/60 mt-6 max-w-md mx-auto'>
-					See how I transformed various concepts into engaging digital
+					See how I transformed concepts into engaging digital
 					experiences
 				</p>
 				<div className='flex flex-col gap-28 mt-10 md:mt-20'>
