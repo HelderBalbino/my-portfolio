@@ -8,7 +8,7 @@ import grainImage from '@/assets/images/grain.jpg';
 
 const portfolioProjects = [
 	{
-		company: 'Acme Corp',
+		company: 'abc',
 		year: '2022',
 		title: 'Dark Saas Landing Page',
 		results: [
