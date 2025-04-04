@@ -47,11 +47,9 @@ export const TestimonialsSection = () => {
 				about my work.
 			</p>
 			<div>
-				{testimonials.map(testimonial => (
-					<div key={testimonial.name}>
-
-					</div>
-				)}
+				{testimonials.map((testimonial) => (
+					<div key={testimonial.name}></div>
+				))}
 			</div>
 		</div>
 	);
