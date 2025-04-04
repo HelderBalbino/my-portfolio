@@ -14,7 +14,7 @@ const testimonials = [
 	},
 	{
 		name: 'Olivia Green',
-		position: 'Head of Design @ GreenLeaf',
+		position: 'Head of Design at GreenLeaf',
 		text: 'Working with Helder was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.',
 		avatar: memojiAvatar2,
 	},
