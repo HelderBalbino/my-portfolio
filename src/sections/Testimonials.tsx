@@ -38,5 +38,11 @@ const testimonials = [
 ];
 
 export const TestimonialsSection = () => {
-	return <div>Testimonials Section</div>;
+	return (
+		<div>
+			<p>Happy Clients</p>
+			<h2>What clients say about me</h2>
+			<p></p>
+		</div>
+	);
 };
