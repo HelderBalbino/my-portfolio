@@ -20,7 +20,7 @@ const testimonials = [
 	},
 	{
 		name: 'Daniel White',
-		position: 'CEO @ InnovateCo',
+		position: 'CEO at InnovateCo',
 		text: "Helder's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
 		avatar: memojiAvatar3,
 	},
