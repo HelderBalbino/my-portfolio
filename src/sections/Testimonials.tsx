@@ -3,6 +3,7 @@ import memojiAvatar2 from '@/assets/images/memoji-avatar-2.png';
 import memojiAvatar3 from '@/assets/images/memoji-avatar-3.png';
 import memojiAvatar4 from '@/assets/images/memoji-avatar-4.png';
 import memojiAvatar5 from '@/assets/images/memoji-avatar-5.png';
+import Image from 'next/image';
 
 const testimonials = [
 	{
@@ -48,7 +49,12 @@ export const TestimonialsSection = () => {
 			</p>
 			<div>
 				{testimonials.map((testimonial) => (
-					<div key={testimonial.name}></div>
+					<div key={testimonial.name}>
+						<Image
+							src={testimonial.avatar}
+							alt={testimonial.name}
+						/>
+					</div>
 				))}
 			</div>
 		</div>
