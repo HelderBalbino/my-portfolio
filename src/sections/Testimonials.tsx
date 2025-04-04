@@ -32,7 +32,7 @@ const testimonials = [
 	},
 	{
 		name: 'Michael Brown',
-		position: 'Director of IT at MegaCorp',
+		position: 'Director of IT at google',
 		text: "Helder's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
 		avatar: memojiAvatar5,
 	},
