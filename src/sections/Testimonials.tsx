@@ -56,6 +56,7 @@ export const TestimonialsSection = () => {
 						/>
 						<div>{testimonial.name}</div>
 						<div>{testimonial.position}</div>
+						<p>{testimonial.text}</p>
 					</div>
 				))}
 			</div>
