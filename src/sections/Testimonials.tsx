@@ -54,6 +54,8 @@ export const TestimonialsSection = () => {
 							src={testimonial.avatar}
 							alt={testimonial.name}
 						/>
+						<div>{testimonial.name}</div>
+						<div>{testimonial.position}</div>
 					</div>
 				))}
 			</div>
