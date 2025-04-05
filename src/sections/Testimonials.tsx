@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const testimonials = [
 	{
-		name: 'Alex',
+		name: 'Anna Smith',
 		position: 'Marketing director at TechStartups',
 		text: "Helder was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
 		avatar: memojiAvatar1,
