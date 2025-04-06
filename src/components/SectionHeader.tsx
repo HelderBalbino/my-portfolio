@@ -1,3 +1,3 @@
 export const SectionHeader = () => {
-	return;
+	return <></>;
 };
