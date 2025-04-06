@@ -1,3 +1,3 @@
-export const SectionHeader = () => {
+export const SectionHeader = ({ title }) => {
 	return <></>;
 };
