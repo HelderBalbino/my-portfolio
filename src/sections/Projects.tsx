@@ -55,10 +55,10 @@ export const ProjectsSection = () => {
 					</p>
 				</div>
 				<h2 className='font-serif text-3xl md:text-5xl text-center mt-7'>
-					My Featured Projects
+					Featured Projects
 				</h2>
 				<p className='text-center md:text-lg lg:text-xl text-white/60 mt-6 max-w-md mx-auto'>
-					See how I transformed many concepts into engaging digital
+					See how I transformed concepts into engaging digital
 					experiences
 				</p>
 				<div className='mt-10 md:mt-20 flex flex-col gap-28 '>
