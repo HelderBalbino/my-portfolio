@@ -1,3 +1,3 @@
 export const AboutSection = () => {
-	return <div>About me Section</div>;
+	return <div>The About me Section</div>;
 };
