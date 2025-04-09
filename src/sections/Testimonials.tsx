@@ -48,7 +48,7 @@ export const TestimonialsSection = () => {
 				description='Dont just take my word for it. See what my clients have to say about my work.'
 			/>
 			<p>Happy Clients</p>
-			<h2>What clients say about me</h2>
+			<h2>What my clients say about me</h2>
 			<p>
 				Don't just take my word for it. See what my clients have to say
 				about my work.
