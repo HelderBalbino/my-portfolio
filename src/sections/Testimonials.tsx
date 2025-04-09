@@ -47,12 +47,6 @@ export const TestimonialsSection = () => {
 				title='What the clients say about me'
 				description='Dont just take my word for it. See what my clients have to say about my work.'
 			/>
-			<p>Happy Clients</p>
-			<h2>What my clients say about my work</h2>
-			<p>
-				Don't just take my word for it. See what my clients have to say
-				about my work.
-			</p>
 			<div>
 				{testimonials.map((testimonial) => (
 					<div key={testimonial.name}>
