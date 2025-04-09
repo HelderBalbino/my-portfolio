@@ -44,7 +44,7 @@ export const TestimonialsSection = () => {
 		<div>
 			<SectionHeader
 				eyebrow='Happy Clients'
-				title='What clients say about me'
+				title='What the clients say about me'
 				description='Dont just take my word for it. See what my clients have to say about my work.'
 			/>
 			<p>Happy Clients</p>
