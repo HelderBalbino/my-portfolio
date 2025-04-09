@@ -3,6 +3,7 @@ import memojiAvatar2 from '@/assets/images/memoji-avatar-2.png';
 import memojiAvatar3 from '@/assets/images/memoji-avatar-3.png';
 import memojiAvatar4 from '@/assets/images/memoji-avatar-4.png';
 import memojiAvatar5 from '@/assets/images/memoji-avatar-5.png';
+import { SectionHeader } from '@/components/SectionHeader';
 import Image from 'next/image';
 
 const testimonials = [
@@ -41,6 +42,7 @@ const testimonials = [
 export const TestimonialsSection = () => {
 	return (
 		<div>
+			<SectionHeader
 			<p>Happy Clients</p>
 			<h2>What clients say about me</h2>
 			<p>
