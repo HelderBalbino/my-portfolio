@@ -41,7 +41,7 @@ const testimonials = [
 
 export const TestimonialsSection = () => {
 	return (
-		<div>
+		<div className='container'>
 			<SectionHeader
 				eyebrow='HAPPY CLIENTS'
 				title='What the clients say about me'
