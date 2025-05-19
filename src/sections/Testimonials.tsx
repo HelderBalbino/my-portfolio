@@ -45,9 +45,9 @@ export const TestimonialsSection = () => {
 		<div className='py-16'>
 			<div className='container'>
 				<SectionHeader
-					eyebrow='HAPPY CLIENTS'
+					eyebrow='Testimonials'
 					title='What people say about me'
-					description="Don't just take my word for it. See what my clients have to say about my work."
+					description="Don't just take my word for it. See what some wonderful people I've worked with have to say."
 				/>
 				<div>
 					{testimonials.map((testimonial) => (
