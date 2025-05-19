@@ -15,7 +15,7 @@ const testimonials = [
 		avatar: memojiAvatar1,
 	},
 	{
-		name: 'Olivia Porte',
+		name: 'Ramsey Ediku',
 		position: 'Head of Design at GreenLeaf',
 		text: 'Working with Helder was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.',
 		avatar: memojiAvatar2,
