@@ -9,15 +9,15 @@ import { SectionHeader } from '@/components/SectionHeader';
 
 const portfolioProjects = [
 	{
-		company: 'abc',
-		year: '2022',
-		title: 'Dark Saas Landing Page',
+		company: 'TechNative',
+		year: '2025',
+		title: 'Mixtapemagic',
 		results: [
 			{ title: 'Enhanced user experience by 30%' },
 			{ title: 'Improved site speed by 50%' },
 			{ title: 'Increased mobile traffic by 35%' },
 		],
-		link: 'https://youtu.be/4k7IdSLxh6w',
+		link: 'https://mixtapemagic.netlify.app/',
 		image: darkSaasLandingPage,
 	},
 	{
