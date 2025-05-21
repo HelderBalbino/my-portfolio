@@ -46,13 +46,15 @@ export const TestimonialsSection = () => {
 				<div>
 					{testimonials.map((testimonial) => (
 						<Card key={testimonial.name}>
-							<Image
-								className='rounded-full mb-4'
-								src={testimonial.avatar}
-								alt={testimonial.name}
-							/>
-							<div>{testimonial.name}</div>
-							<div>{testimonial.position}</div>
+							<div>
+								<Image
+									className='rounded-full mb-4'
+									src={testimonial.avatar}
+									alt={testimonial.name}
+								/>
+								<div>{testimonial.name}</div>
+								<div>{testimonial.position}</div>
+							</div>
 							<p>{testimonial.text}</p>
 						</Card>
 					))}
