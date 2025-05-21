@@ -3,6 +3,16 @@ import { Card } from '@/components/card';
 import StarIcon from '@/assets/icons/star.svg';
 import bookImage from '@/assets/images/book-cover.png';
 import Image from 'next/image';
+import JavascriptIcon from '@/assets/icons/square-js.svg';
+
+const toolboxItems = [
+	{ title: 'JavaScript', icon: <JavascriptIcon /> },
+	{ title: 'HTML5', icon: '' },
+	{ title: 'CSS3', icon: '' },
+	{ title: 'React', icon: '' },
+	{ title: 'Chrome', icon: '' },
+	{ title: 'GitHub', icon: '' },
+];
 
 export const AboutSection = () => {
 	return (
