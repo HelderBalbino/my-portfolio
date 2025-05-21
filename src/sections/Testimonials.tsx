@@ -55,6 +55,7 @@ export const TestimonialsSection = () => {
 								}}
 							></div>
 							<Image
+								className='rounded-full mb-4'
 								src={testimonial.avatar}
 								alt={testimonial.name}
 							/>
