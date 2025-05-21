@@ -43,26 +43,32 @@ export const TestimonialsSection = () => {
 					title='What people say about me'
 					description="Don't just take my word for it. See what some wonderful people I've worked with have to say."
 				/>
-				<div>
-					{testimonials.map((testimonial) => (
-						<Card key={testimonial.name}>
-							<div className='flex gap-1 items-center'>
-								<div className='inline-flex items-center justify-center w-16 h-16 mr-4 rounded-full bg-gray-100'>
-									<Image
-										className='size-14 inline-flex rounded-full max-h-full'
-										src={testimonial.avatar}
-										alt={testimonial.name}
-									/>
-								</div>
+				<div className='mt-16 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]'>
+					<div className='flex gap-9 flex-none'>
+						{testimonials.map((testimonial) => (
+							<Card key={testimonial.name} className='max-w-sm'>
+								<div className='flex gap-1 items-center'>
+									<div className='inline-flex items-center justify-center w-16 h-16 mr-4 rounded-full bg-gray-100'>
+										<Image
+											className='size-14 inline-flex rounded-full max-h-full'
+											src={testimonial.avatar}
+											alt={testimonial.name}
+										/>
+									</div>
 
-								<div>
-									<div>{testimonial.name}</div>
-									<div>{testimonial.position}</div>
+									<div>
+										<div className='font-semibold'>
+											{testimonial.name}
+										</div>
+										<div className='text-sm text-white/50'>
+											{testimonial.position}
+										</div>
+									</div>
 								</div>
-							</div>
-							<p>{testimonial.text}</p>
-						</Card>
-					))}
+								<p className='mt-4'>{testimonial.text}</p>
+							</Card>
+						))}
+					</div>
 				</div>
 			</div>
 		</div>
