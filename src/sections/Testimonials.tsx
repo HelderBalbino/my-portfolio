@@ -46,12 +46,6 @@ export const TestimonialsSection = () => {
 				<div>
 					{testimonials.map((testimonial) => (
 						<Card key={testimonial.name}>
-							<div
-								className='absolute inset-0 opacity-5 -z-10'
-								style={{
-									backgroundImage: `url(${grainImage.src})`,
-								}}
-							></div>
 							<Image
 								className='rounded-full mb-4'
 								src={testimonial.avatar}
