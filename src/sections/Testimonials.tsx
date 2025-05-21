@@ -47,9 +47,9 @@ export const TestimonialsSection = () => {
 					{testimonials.map((testimonial) => (
 						<Card key={testimonial.name}>
 							<div className='flex'>
-								<div>
+								<div className='inline-flex items-center justify-center w-16 h-16 mr-4 rounded-full bg-gray-100'>
 									<Image
-										className='size-14 inline-flex rounded-full'
+										className='size-14 inline-flex rounded-full max-h-full'
 										src={testimonial.avatar}
 										alt={testimonial.name}
 									/>
