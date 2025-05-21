@@ -6,6 +6,7 @@ import CheckCircleIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import grainImage from '@/assets/images/grain.jpg';
 import { SectionHeader } from '@/components/SectionHeader';
+import { Card } from '@/components/card';
 
 const portfolioProjects = [
 	{
@@ -58,7 +59,7 @@ export const ProjectsSection = () => {
 				/>
 				<div className='mt-10 md:mt-20 flex flex-col gap-28 '>
 					{portfolioProjects.map((project) => (
-						<div
+						<Card
 							key={project.title}
 							className='bg-gray-800 rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[""] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 after:pointer-events-none'
 						>
@@ -103,7 +104,7 @@ export const ProjectsSection = () => {
 									/>
 								</div>
 							</div>
-						</div>
+						</Card>
 					))}
 				</div>
 			</div>
