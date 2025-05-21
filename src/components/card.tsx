@@ -1,7 +1,11 @@
 import grainImage from '@/assets/images/grain.jpg';
 import { twMerge } from 'tailwind-merge';
 
-export const Card = ({ className }: {}) => {
+export const Card = ({
+	className,
+}: {
+	className?: string; // Optional className prop for additional styling
+}) => {
 	return (
 		<div
 			className={twMerge(
