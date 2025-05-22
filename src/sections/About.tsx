@@ -11,6 +11,7 @@ import ChromeIcon from '@/assets/icons/chrome.svg';
 import GithubIcon from '@/assets/icons/github.svg';
 import { TechIcon } from '@/components/TechIcon';
 import mapImage from '@/assets/images/map.png';
+import memojiImage from '@/assets/images/memoji-computer.png';
 
 const toolboxItems = [
 	{ title: 'JavaScript', iconType: JavascriptIcon },
@@ -68,6 +69,7 @@ export const AboutSection = () => {
 				</Card>
 				<Card>
 					<Image src={mapImage} alt='map Image' />
+					<Image src={memojiImage} alt='smile Memoji' />
 				</Card>
 			</div>
 		</div>
