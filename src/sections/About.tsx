@@ -11,12 +11,12 @@ import ChromeIcon from '@/assets/icons/chrome.svg';
 import GithubIcon from '@/assets/icons/github.svg';
 
 const toolboxItems = [
-	{ title: 'JavaScript', icon: <JavascriptIcon /> },
-	{ title: 'HTML5', icon: <HTMLIcon /> },
-	{ title: 'CSS3', icon: <CssIcon /> },
-	{ title: 'React', icon: <ReactIcon /> },
-	{ title: 'Chrome', icon: <ChromeIcon /> },
-	{ title: 'GitHub', icon: <GithubIcon /> },
+	{ title: 'JavaScript', iconType: JavascriptIcon },
+	{ title: 'HTML5', iconType: HTMLIcon },
+	{ title: 'CSS3', iconType: CssIcon },
+	{ title: 'React', iconType: ReactIcon },
+	{ title: 'Chrome', iconType: ChromeIcon },
+	{ title: 'GitHub', iconType: GithubIcon },
 ];
 
 export const AboutSection = () => {
@@ -48,7 +48,7 @@ export const AboutSection = () => {
 					<div>
 						{toolboxItems.map((item) => (
 							<div key={item.title}>
-								<span>{item.icon}</span>
+								<TechIcon component={item.iconType} />
 								<span>{item.title}</span>
 							</div>
 						))}
