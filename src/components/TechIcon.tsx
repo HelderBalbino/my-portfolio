@@ -1,0 +1,3 @@
+export TechIcon = () =>  {
+    return ()
+}
