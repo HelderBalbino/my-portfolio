@@ -47,7 +47,10 @@ export const AboutSection = () => {
 					</div>
 					<div>
 						{toolboxItems.map((item) => (
-							<div key={item.title}>{item.icon}</div>
+							<div key={item.title}>
+								<span>{item.icon}</span>
+								<span>{item.title}</span>
+							</div>
 						))}
 					</div>
 				</Card>
