@@ -10,6 +10,7 @@ import ReactIcon from '@/assets/icons/react.svg';
 import ChromeIcon from '@/assets/icons/chrome.svg';
 import GithubIcon from '@/assets/icons/github.svg';
 import { TechIcon } from '@/components/TechIcon';
+import mapImage from '@/assets/images/map.png';
 
 const toolboxItems = [
 	{ title: 'JavaScript', iconType: JavascriptIcon },
@@ -58,12 +59,15 @@ export const AboutSection = () => {
 				<Card>
 					<div>
 						<StarIcon />
-						<h3>Beyond</h3>
+						<h3>Beyond the Code</h3>
 						<p>
 							Discover my passions outside of the digital realm
 							and what fuels my creativity.
 						</p>
 					</div>
+				</Card>
+				<Card>
+					<Image src={mapImage} alt='map Image' />
 				</Card>
 			</div>
 		</div>
