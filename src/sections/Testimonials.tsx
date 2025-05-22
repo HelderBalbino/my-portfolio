@@ -10,25 +10,25 @@ import { Card } from '@/components/card';
 const testimonials = [
 	{
 		name: 'Natalie Porter',
-		position: 'Marketing director at TechStartups',
+		position: 'Director Culture and Employee Experience at NTT Data UK',
 		text: "Helder was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
 		avatar: memojiAvatar1,
 	},
 	{
-		name: 'Jo Pickering',
-		position: 'Head of Design at GreenLeaf',
+		name: 'Kamila Wilczynska',
+		position: 'Web Developer at GB News',
 		text: 'Working with Helder was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.',
 		avatar: memojiAvatar2,
 	},
 	{
-		name: 'Daniel White',
-		position: 'CEO at InnovateCorp',
-		text: "Helder's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+		name: 'Pete Goodman',
+		position: '',
+		text: 'Helder has been a pleasure to work with. He recently completed an intensive 16-week software development bootcamp, during which he consistently demonstrated his development skills, particularly in HTML, CSS, JavaScript, and React. He worked on several excellent projects during the course and was a consistently positive presence in the cohort. He’s personable, collaborative, and easy to get on with.',
 		avatar: memojiAvatar3,
 	},
 	{
-		name: 'Ramsey Ediku',
-		position: 'Product Manager @ GlobalTech',
+		name: 'Elyas Faiq',
+		position: 'Software Engineering at Certn',
 		text: "Helder is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
 		avatar: memojiAvatar4,
 	},
