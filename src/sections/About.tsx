@@ -22,6 +22,22 @@ const toolboxItems = [
 	{ title: 'GitHub', iconType: GithubIcon },
 ];
 
+const hobbies = [
+	{ title: 'Reading', emoji: '📚' },
+	{ title: 'Hiking', emoji: '🥾' },
+	{ title: 'Swimming', emoji: '🏊🏼‍♂️' },
+	{ title: 'Photography', emoji: '📷' },
+	{ title: 'Music', emoji: '🎵' },
+	{ title: 'Movies', emoji: '🍿' },
+	{ title: 'Traveling', emoji: '✈️' },
+	{ title: 'Cooking', emoji: '🍳' },
+	{ title: 'Gaming', emoji: '🎮' },
+	{ title: 'Writing', emoji: '✍️' },
+	{ title: 'Art', emoji: '🎨' },
+	{ title: 'Fitness', emoji: '🏋️‍♂️' },
+	{ title: 'Volunteering', emoji: '🤝' },
+];
+
 export const AboutSection = () => {
 	return (
 		<div className='pb-96'>
@@ -66,10 +82,18 @@ export const AboutSection = () => {
 							and what fuels my creativity.
 						</p>
 					</div>
+					<div>
+						{hobbies.map((hobby) => (
+							<div key={hobby.title}>
+								<span>{hobby.title}</span>
+								<span>{hobby.emoji}</span>
+							</div>
+						))}
+					</div>
 				</Card>
 				<Card>
 					<Image src={mapImage} alt='map Image' />
-					<Image src={memojiImage} alt='smile Memoji' />
+					<Image src={memojiImage} alt='Memoji on a map' />
 				</Card>
 			</div>
 		</div>
