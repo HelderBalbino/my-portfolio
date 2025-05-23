@@ -50,8 +50,12 @@ export const AboutSection = () => {
 				<div className='mt-20'>
 					<Card>
 						<div>
-							<StarIcon />
-							<h3>My Reads</h3>
+							<div className='inline-flex items-center'>
+								<StarIcon className='size-9 text-emerald-300' />
+								<h3 className='font-serif text-3xl'>
+									My Reads
+								</h3>
+							</div>
 							<p>Explore the books shaping my perspectives</p>
 						</div>
 						<Image src={bookImage} alt='Book Cover' />
