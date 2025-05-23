@@ -41,60 +41,62 @@ const hobbies = [
 export const AboutSection = () => {
 	return (
 		<div className='py-16'>
-			<SectionHeader
-				eyebrow='About Me'
-				title='A Glimpse Into My World'
-				description='Learn more about who I am, What I do, and what Inspires me.'
-			/>
-			<div>
-				<Card>
-					<div>
-						<StarIcon />
-						<h3>My Reads</h3>
-						<p>Explore the books shaping my perspectives</p>
-					</div>
-					<Image src={bookImage} alt='Book Cover' />
-				</Card>
-				<Card>
-					<div>
-						<StarIcon />
-						<h3>My Toolbox</h3>
-						<p>
-							Explore the technologies and tools I use to craft
-							exceptional digital experiences
-						</p>
-					</div>
-					<div>
-						{toolboxItems.map((item) => (
-							<div key={item.title}>
-								<TechIcon component={item.iconType} />
-								<span>{item.title}</span>
-							</div>
-						))}
-					</div>
-				</Card>
-				<Card>
-					<div>
-						<StarIcon />
-						<h3>Beyond the Code</h3>
-						<p>
-							Discover my passions outside of the digital realm
-							and what fuels my creativity.
-						</p>
-					</div>
-					<div>
-						{hobbies.map((hobby) => (
-							<div key={hobby.title}>
-								<span>{hobby.title}</span>
-								<span>{hobby.emoji}</span>
-							</div>
-						))}
-					</div>
-				</Card>
-				<Card>
-					<Image src={mapImage} alt='map Image' />
-					<Image src={memojiImage} alt='Memoji on a map' />
-				</Card>
+			<div className='container'>
+				<SectionHeader
+					eyebrow='About Me'
+					title='A Glimpse Into My World'
+					description='Learn more about who I am, What I do, and what Inspires me.'
+				/>
+				<div>
+					<Card>
+						<div>
+							<StarIcon />
+							<h3>My Reads</h3>
+							<p>Explore the books shaping my perspectives</p>
+						</div>
+						<Image src={bookImage} alt='Book Cover' />
+					</Card>
+					<Card>
+						<div>
+							<StarIcon />
+							<h3>My Toolbox</h3>
+							<p>
+								Explore the technologies and tools I use to
+								craft exceptional digital experiences
+							</p>
+						</div>
+						<div>
+							{toolboxItems.map((item) => (
+								<div key={item.title}>
+									<TechIcon component={item.iconType} />
+									<span>{item.title}</span>
+								</div>
+							))}
+						</div>
+					</Card>
+					<Card>
+						<div>
+							<StarIcon />
+							<h3>Beyond the Code</h3>
+							<p>
+								Discover my passions outside of the digital
+								realm and what fuels my creativity.
+							</p>
+						</div>
+						<div>
+							{hobbies.map((hobby) => (
+								<div key={hobby.title}>
+									<span>{hobby.title}</span>
+									<span>{hobby.emoji}</span>
+								</div>
+							))}
+						</div>
+					</Card>
+					<Card>
+						<Image src={mapImage} alt='map Image' />
+						<Image src={memojiImage} alt='Memoji on a map' />
+					</Card>
+				</div>
 			</div>
 		</div>
 	);
