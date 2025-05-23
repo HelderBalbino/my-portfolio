@@ -1,3 +1,5 @@
+import StarIcon from '@/assets/icons/star.svg';
+
 export const CardHeader = () => {
 	return (
 		<div className='flex flex-col'>
