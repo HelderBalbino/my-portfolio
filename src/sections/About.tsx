@@ -60,7 +60,9 @@ export const AboutSection = () => {
 								Explore the books shaping my perspectives
 							</p>
 						</div>
-						<Image src={bookImage} alt='Book Cover' />
+						<div className='w-40 mx-auto mt-8'>
+							<Image src={bookImage} alt='Book Cover' />
+						</div>
 					</Card>
 					<Card>
 						<div>
