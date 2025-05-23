@@ -48,7 +48,7 @@ export const AboutSection = () => {
 					description='Learn more about who I am, What I do, and what Inspires me.'
 				/>
 				<div className='mt-20'>
-					<Card>
+					<Card className='h-[320px]'>
 						<div className='flex flex-col'>
 							<div className='inline-flex items-center gap-2'>
 								<StarIcon className='size-9 text-emerald-300' />
