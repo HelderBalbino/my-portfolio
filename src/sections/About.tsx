@@ -47,7 +47,7 @@ export const AboutSection = () => {
 					title='A Glimpse Into My World'
 					description='Learn more about who I am, What I do, and what Inspires me.'
 				/>
-				<div>
+				<div className='mt-20'>
 					<Card>
 						<div>
 							<StarIcon />
