@@ -24,7 +24,7 @@ const portfolioProjects = [
 	{
 		company: 'TechNative',
 		year: '2025',
-		title: 'Light Saas Landing Page',
+		title: 'Movie Search App',
 		results: [
 			{ title: 'Boosted sales by 50%' },
 			{ title: 'Expanded customer reach by 35%' },
