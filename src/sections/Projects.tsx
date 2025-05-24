@@ -30,7 +30,7 @@ const portfolioProjects = [
 			{ title: 'Expanded customer reach by 35%' },
 			{ title: 'Increased brand awareness by 15%' },
 		],
-		link: '',
+		link: 'https://helderbalbino.github.io/Movie-search-app/',
 		image: lightSaasLandingPage,
 	},
 	{
