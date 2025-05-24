@@ -23,7 +23,7 @@ const portfolioProjects = [
 	},
 	{
 		company: 'TechNative',
-		year: '2021',
+		year: '2025',
 		title: 'Light Saas Landing Page',
 		results: [
 			{ title: 'Boosted sales by 50%' },
