@@ -28,7 +28,7 @@ const testimonials = [
 	{
 		name: 'Elyas Faiq',
 		position: 'Software Engineering at Certn.',
-		text: 'Helder is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.',
+		text: "Helder is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
 		avatar: memojiAvatar4,
 	},
 ];
