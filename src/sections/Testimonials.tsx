@@ -10,7 +10,7 @@ const testimonials = [
 	{
 		name: 'Natalie Porter',
 		position: 'Director of Employee Experience at NTT Data.',
-		text: "Helder was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+		text: 'I had the pleasure of working with Helder during the Tech Native Digital Web Development Bootcamp. He is easy-going, communicative, and a great team player. Working with him was always smooth and productive, brings a positive attitude and collaborates well with others. I’m confident he will be a valuable asset to any team.',
 		avatar: memojiAvatar1,
 	},
 	{
@@ -28,7 +28,7 @@ const testimonials = [
 	{
 		name: 'Elyas Faiq',
 		position: 'Software Engineering at Certn.',
-		text: "Helder is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
+		text: 'Helder is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.',
 		avatar: memojiAvatar4,
 	},
 ];
