@@ -40,7 +40,7 @@ export const TestimonialsSection = () => {
 				<SectionHeader
 					eyebrow='Testimonials'
 					title='What people say about me'
-					description="Don't just take my word for it. See what some wonderful people I've worked with have to say."
+					description="Don't just take my word for it. See what these wonderful people have to say about me."
 				/>
 				<div className='mt-16 lg:mt-24 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]'>
 					<div className='flex gap-9 flex-none'>
