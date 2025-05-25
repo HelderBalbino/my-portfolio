@@ -69,7 +69,7 @@ export const TestimonialsSection = () => {
 										</div>
 									</div>
 								</div>
-								<p className='mt-3 md:mt-6 text-sm md:text-base'>
+								<p className='mt-4 md:mt-6 text-sm md:text-base'>
 									{testimonial.text}
 								</p>
 							</Card>
