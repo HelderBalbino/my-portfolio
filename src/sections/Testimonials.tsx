@@ -9,13 +9,13 @@ import { Card } from '@/components/card';
 const testimonials = [
 	{
 		name: 'Natalie Porter',
-		position: 'Director Culture and Employee Experience at NTT Data UK',
+		position: 'Director of Culture and Employee Experience at NTT Data Uk.',
 		text: "Helder was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
 		avatar: memojiAvatar1,
 	},
 	{
 		name: 'Kamila Wilczynska',
-		position: 'Web Developer at GB News',
+		position: 'Web Developer at GB News.',
 		text: 'I had the pleasure of working with Helder during the Tech Native Digital Web Development Bootcamp. He is easy-going, communicative, and a great team player. Working with him was always smooth and productive, brings a positive attitude and collaborates well with others. I’m confident he will be a valuable asset to any team.',
 		avatar: memojiAvatar2,
 	},
@@ -27,7 +27,7 @@ const testimonials = [
 	},
 	{
 		name: 'Elyas Faiq',
-		position: 'Software Engineering at Certn',
+		position: 'Software Engineering at Certn.',
 		text: "Helder is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
 		avatar: memojiAvatar4,
 	},
@@ -50,11 +50,13 @@ export const TestimonialsSection = () => {
 								className='max-w-xs md:max-w-md md:p-8'
 							>
 								<div className='flex gap-1 items-center'>
-									<div className='inline-flex items-center justify-center w-16 h-16 mr-4 rounded-full bg-gray-100'>
+									<div className='inline-flex items-center justify-center mr-4 rounded-full bg-gray-100'>
 										<Image
 											className='size-16 inline-flex rounded-full max-h-full'
 											src={testimonial.avatar}
 											alt={testimonial.name}
+											width={64}
+											height={64}
 										/>
 									</div>
 
