@@ -52,7 +52,7 @@ export const TestimonialsSection = () => {
 								<div className='flex gap-1 items-center'>
 									<div className='inline-flex items-center justify-center mr-4 rounded-full bg-gray-100'>
 										<Image
-											className='size-16 inline-flex rounded-full max-h-full'
+											className='size-14 inline-flex rounded-full max-h-full'
 											src={testimonial.avatar}
 											alt={testimonial.name}
 											width={64}
