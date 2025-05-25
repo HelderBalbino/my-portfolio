@@ -9,7 +9,7 @@ import { Card } from '@/components/card';
 const testimonials = [
 	{
 		name: 'Natalie Porter',
-		position: 'Director of Culture and Employee Experience at NTT Data Uk.',
+		position: 'Director of Employee Experience at NTT Data.',
 		text: "Helder was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
 		avatar: memojiAvatar1,
 	},
