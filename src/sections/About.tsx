@@ -12,6 +12,7 @@ import GithubIcon from '@/assets/icons/github.svg';
 import { TechIcon } from '@/components/TechIcon';
 import mapImage from '@/assets/images/map.png';
 import memojiImage from '@/assets/images/memoji-computer.png';
+import { CardHeader } from '@/components/CardHeader';
 
 const toolboxItems = [
 	{ title: 'JavaScript', iconType: JavascriptIcon },
@@ -49,17 +50,10 @@ export const AboutSection = () => {
 				/>
 				<div className='mt-20'>
 					<Card className='h-[320px]'>
-						<div className='flex flex-col'>
-							<div className='inline-flex items-center gap-2'>
-								<StarIcon className='size-9 text-emerald-300' />
-								<h3 className='font-serif text-3xl'>
-									My Reads
-								</h3>
-							</div>
-							<p className='text-sm text-white/60 mt-2'>
-								Explore the books shaping my perspectives
-							</p>
-						</div>
+						<CardHeader
+							title='My Reads'
+							description='Explore the books shaping my perspectives'
+						/>
 						<div className='w-40 mx-auto mt-8'>
 							<Image src={bookImage} alt='Book Cover' />
 						</div>
