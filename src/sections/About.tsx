@@ -69,6 +69,7 @@ export const AboutSection = () => {
 					</Card>
 					<Card className='h-[320px]'>
 						<CardHeader
+							className=''
 							title='My Toolbox'
 							description='Explore the technologies and tools I use to craft exceptional digital experiences'
 						/>
