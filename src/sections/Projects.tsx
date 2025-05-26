@@ -18,6 +18,7 @@ const portfolioProjects = [
 			{ title: 'Increased mobile traffic by 35%' },
 		],
 		link: 'https://mixtapemagic.netlify.app/',
+		github: 'https://github.com/technative-academy/Mixtape-Magic',
 		image: darkSaasLandingPage,
 	},
 	{
@@ -30,6 +31,7 @@ const portfolioProjects = [
 			{ title: 'Increased brand awareness by 15%' },
 		],
 		link: 'https://helderbalbino.github.io/Movie-search-app/',
+		github: 'https://github.com/helderbalbino/Movie-search-app',
 		image: lightSaasLandingPage,
 	},
 	{
@@ -82,12 +84,28 @@ export const ProjectsSection = () => {
 											</li>
 										))}
 									</ul>
-									<a href={project.link}>
-										<button className='bg-white text-gray-950 h-12 w-full px-6 md:w-auto rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8'>
-											<span>Visit the Live Site</span>
-											<ArrowUpRightIcon className='size-4' />
-										</button>
-									</a>
+									<div className='flex flex-col md:flex-row gap-4 mt-8'>
+										<a
+											href={project.link}
+											target='_blank'
+											rel='noopener noreferrer'
+										>
+											<button className='bg-white text-gray-950 h-12 w-full px-6 md:w-auto rounded-xl font-semibold inline-flex items-center justify-center gap-2'>
+												<span>Live Site</span>
+												<ArrowUpRightIcon className='size-4' />
+											</button>
+										</a>
+										<a
+											href={project.github}
+											target='_blank'
+											rel='noopener noreferrer'
+										>
+											<button className='border border-white text-white h-12 w-full px-6 md:w-auto rounded-xl font-semibold inline-flex items-center justify-center gap-2 hover:bg-white/10'>
+												<span>View on GitHub</span>
+												<ArrowUpRightIcon className='size-4' />
+											</button>
+										</a>
+									</div>
 								</div>
 								<div className='relative'>
 									<Image
