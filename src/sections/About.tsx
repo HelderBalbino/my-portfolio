@@ -73,9 +73,14 @@ export const AboutSection = () => {
 						/>
 						<div>
 							{toolboxItems.map((item) => (
-								<div key={item.title}>
+								<div
+									key={item.title}
+									className='inline-flex items-center gap-4 py-2 px-3'
+								>
 									<TechIcon component={item.iconType} />
-									<span>{item.title}</span>
+									<span className='font-semibold'>
+										{item.title}
+									</span>
 								</div>
 							))}
 						</div>
