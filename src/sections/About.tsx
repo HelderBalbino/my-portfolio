@@ -80,15 +80,20 @@ export const AboutSection = () => {
 							itemsWrapperClassName='-translate-x-1/2'
 						/>
 					</Card>
-					<Card>
+					<Card className='h-[320px]'>
 						<CardHeader
 							title='My Hobbies'
 							description='Discover the activities that fuel my creativity and passion beyond coding'
 						/>
-						<div>
+						<div className='relative'>
 							{hobbies.map((hobby) => (
-								<div key={hobby.title}>
-									<span>{hobby.title}</span>
+								<div
+									key={hobby.title}
+									className='inline-flex  items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute'
+								>
+									<span className='font-medium text-gray-950'>
+										{hobby.title}
+									</span>
 									<span>{hobby.emoji}</span>
 								</div>
 							))}
