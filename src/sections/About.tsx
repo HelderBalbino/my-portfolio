@@ -81,14 +81,10 @@ export const AboutSection = () => {
 						</div>
 					</Card>
 					<Card>
-						<div>
-							<StarIcon />
-							<h3>Beyond the Code</h3>
-							<p>
-								Discover my passions outside of the digital
-								realm and what fuels my creativity.
-							</p>
-						</div>
+						<CardHeader
+							title='My Hobbies'
+							description='Discover the activities that fuel my creativity and passion beyond coding'
+						/>
 						<div>
 							{hobbies.map((hobby) => (
 								<div key={hobby.title}>
