@@ -31,7 +31,7 @@ const hobbies = [
 	{ title: 'Dancing', emoji: '🕺🏽', left: '80%', top: '10%' },
 	{ title: 'Gardening', emoji: '🌱', left: '82%', top: '34%' },
 	{ title: 'Podcasts', emoji: '🎙️', left: '55%', top: '25%' },
-	{ title: 'Music', emoji: '🎵', left: '80%', top: '80%' },
+	{ title: 'Music', emoji: '🎵', left: '88%', top: '80%' },
 	{ title: 'Sports', emoji: '⚽', left: '70%', top: '60%' },
 	{ title: 'Mixology', emoji: '🍸', left: '50%', top: '80%' },
 	{ title: 'Technology', emoji: '💻', left: '20%', top: '10%' },
@@ -39,11 +39,10 @@ const hobbies = [
 	{ title: 'Movies', emoji: '🍿', left: '2%', top: '50%' },
 	{ title: 'Traveling', emoji: '✈️', left: '15%', top: '80%' },
 	{ title: 'Cooking', emoji: '🍳', left: '66%', top: '1%' },
-	{ title: 'Gaming', emoji: '🎮', left: '', top: '' },
-	{ title: 'Writing', emoji: '✍️', left: '', top: '' },
-	{ title: 'Art', emoji: '🎨', left: '', top: '' },
-	{ title: 'Fitness', emoji: '🏋️‍♂️', left: '', top: '' },
-	{ title: 'Volunteering', emoji: '🤝', left: '', top: '' },
+	{ title: 'Gaming', emoji: '🎮', left: '2%', top: '2%' },
+	{ title: 'Writing', emoji: '✍️', left: '13%', top: '50%' },
+	{ title: 'Art', emoji: '🎨', left: '1%', top: '30%' },
+	{ title: 'Volunteering', emoji: '🤝', left: '70%', top: '80%' },
 ];
 
 export const AboutSection = () => {
