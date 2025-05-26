@@ -9,7 +9,7 @@ export const ToolboxItems = ({
 	}[];
 }) => {
 	return (
-		<div className='flex'>
+		<div className='flex [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]'>
 			<div className='flex flex-none'>
 				{items.map((item) => (
 					<div
