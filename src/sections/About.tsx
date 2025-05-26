@@ -74,7 +74,11 @@ export const AboutSection = () => {
 							className='px-6 pt-6'
 						/>
 						<ToolboxItems items={toolboxItems} className='mt-6' />
-						<ToolboxItems items={toolboxItems} className='mt-6' />
+						<ToolboxItems
+							items={toolboxItems}
+							className='mt-6'
+							itemsWrapperClassName='-translate-x-1/2'
+						/>
 					</Card>
 					<Card>
 						<CardHeader
