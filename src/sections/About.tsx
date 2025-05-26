@@ -26,7 +26,7 @@ const hobbies = [
 	{ title: 'Reading', emoji: '📚', left: '50%', top: '50%' },
 	{ title: 'Hiking', emoji: '🥾', left: '43%', top: '12%' },
 	{ title: 'Swimming', emoji: '🏊🏼‍♂️', left: '1%', top: '70%' },
-	{ title: 'Photography', emoji: '📷', left: '30%', top: '80%' },
+	{ title: 'Gaming', emoji: '📷', left: '30%', top: '80%' },
 	{ title: 'Cycling', emoji: '🚴‍♂️', left: '25%', top: '45%' },
 	{ title: 'Dancing', emoji: '🕺🏽', left: '80%', top: '10%' },
 	{ title: 'Gardening', emoji: '🌱', left: '82%', top: '34%' },
@@ -34,12 +34,12 @@ const hobbies = [
 	{ title: 'Music', emoji: '🎵', left: '88%', top: '80%' },
 	{ title: 'Sports', emoji: '⚽', left: '70%', top: '60%' },
 	{ title: 'Mixology', emoji: '🍸', left: '50%', top: '80%' },
-	{ title: 'Technology', emoji: '💻', left: '20%', top: '10%' },
+	{ title: 'Photography', emoji: '💻', left: '20%', top: '10%' },
 	{ title: 'eating', emoji: '🍔', left: '38%', top: '53%' },
 	{ title: 'Movies', emoji: '🍿', left: '2%', top: '50%' },
 	{ title: 'Traveling', emoji: '✈️', left: '15%', top: '80%' },
 	{ title: 'Cooking', emoji: '🍳', left: '66%', top: '1%' },
-	{ title: 'Gaming', emoji: '🎮', left: '2%', top: '2%' },
+	{ title: 'Technology', emoji: '🎮', left: '2%', top: '2%' },
 	{ title: 'Writing', emoji: '✍️', left: '13%', top: '50%' },
 	{ title: 'Art', emoji: '🎨', left: '1%', top: '30%' },
 	{ title: 'Volunteering', emoji: '🤝', left: '70%', top: '80%' },
@@ -101,8 +101,12 @@ export const AboutSection = () => {
 							))}
 						</div>
 					</Card>
-					<Card>
-						<Image src={mapImage} alt='map Image' />
+					<Card className='h-[320px] p-0'>
+						<Image
+							src={mapImage}
+							alt='map Image'
+							className='h-full w-full object-cover'
+						/>
 						<Image src={memojiImage} alt='Memoji on a map' />
 					</Card>
 				</div>
