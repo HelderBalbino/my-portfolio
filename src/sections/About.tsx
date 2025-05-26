@@ -67,14 +67,10 @@ export const AboutSection = () => {
 						</div>
 					</Card>
 					<Card>
-						<div>
-							<StarIcon />
-							<h3>My Toolbox</h3>
-							<p>
-								Explore the technologies and tools I use to
-								craft exceptional digital experiences
-							</p>
-						</div>
+						<CardHeader
+							title='My Toolbox'
+							description='Explore the technologies and tools I use to craft exceptional digital experiences'
+						/>
 						<div>
 							{toolboxItems.map((item) => (
 								<div key={item.title}>
