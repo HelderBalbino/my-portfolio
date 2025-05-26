@@ -101,13 +101,19 @@ export const AboutSection = () => {
 							))}
 						</div>
 					</Card>
-					<Card className='h-[320px] p-0'>
+					<Card className='h-[320px] p-0 relative'>
 						<Image
 							src={mapImage}
 							alt='map Image'
 							className='h-full w-full object-cover'
 						/>
-						<Image src={memojiImage} alt='Memoji on a map' />
+						<div className='absolute top-1/2 size-20 '>
+							<Image
+								src={memojiImage}
+								alt='Memoji on a map'
+								className='size-24'
+							/>
+						</div>
 					</Card>
 				</div>
 			</div>
