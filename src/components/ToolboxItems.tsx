@@ -22,7 +22,7 @@ export const ToolboxItems = ({
 		>
 			<div
 				className={twMerge(
-					'flex flex-none py-0.5 gap-6',
+					'flex flex-none py-0.5 gap-6 pr-6',
 					itemsWrapperClassName,
 				)}
 			>
