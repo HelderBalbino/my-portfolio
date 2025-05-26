@@ -1,6 +1,5 @@
 import { SectionHeader } from '@/components/SectionHeader';
 import { Card } from '@/components/card';
-import StarIcon from '@/assets/icons/star.svg';
 import bookImage from '@/assets/images/book-cover.png';
 import Image from 'next/image';
 import JavascriptIcon from '@/assets/icons/square-js.svg';
@@ -9,7 +8,6 @@ import CssIcon from '@/assets/icons/css3.svg';
 import ReactIcon from '@/assets/icons/react.svg';
 import ChromeIcon from '@/assets/icons/chrome.svg';
 import GithubIcon from '@/assets/icons/github.svg';
-import { TechIcon } from '@/components/TechIcon';
 import mapImage from '@/assets/images/map.png';
 import memojiImage from '@/assets/images/memoji-computer.png';
 import { CardHeader } from '@/components/CardHeader';
@@ -80,16 +78,21 @@ export const AboutSection = () => {
 							itemsWrapperClassName='-translate-x-1/2'
 						/>
 					</Card>
-					<Card className='h-[320px]'>
+					<Card className='h-[320px] p-0 flex flex-col'>
 						<CardHeader
 							title='My Hobbies'
 							description='Discover the activities that fuel my creativity and passion beyond coding'
+							className='px-6 py-6'
 						/>
-						<div className='relative'>
+						<div className='relative flex-1'>
 							{hobbies.map((hobby) => (
 								<div
 									key={hobby.title}
 									className='inline-flex  items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute'
+									style={{
+										left: hobby.left,
+										top: hobby.top,
+									}}
 								>
 									<span className='font-medium text-gray-950'>
 										{hobby.title}
