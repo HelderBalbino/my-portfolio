@@ -25,7 +25,7 @@ const toolboxItems = [
 const hobbies = [
 	{ title: 'Reading', emoji: '📚', left: '50%', top: '50%' },
 	{ title: 'Hiking', emoji: '🥾', left: '43%', top: '12%' },
-	{ title: 'Swimming', emoji: '🏊🏼‍♂️', left: '10%', top: '73%' },
+	{ title: 'Swimming', emoji: '🏊🏼‍♂️', left: '1%', top: '70%' },
 	{ title: 'Photography', emoji: '📷', left: '30%', top: '80%' },
 	{ title: 'Cycling', emoji: '🚴‍♂️', left: '25%', top: '45%' },
 	{ title: 'Dancing', emoji: '🕺🏽', left: '80%', top: '10%' },
@@ -35,10 +35,10 @@ const hobbies = [
 	{ title: 'Sports', emoji: '⚽', left: '70%', top: '60%' },
 	{ title: 'Mixology', emoji: '🍸', left: '50%', top: '80%' },
 	{ title: 'Technology', emoji: '💻', left: '20%', top: '10%' },
-	{ title: 'Food', emoji: '🍔', left: '', top: '' },
-	{ title: 'Movies', emoji: '🍿', left: '', top: '' },
-	{ title: 'Traveling', emoji: '✈️', left: '', top: '' },
-	{ title: 'Cooking', emoji: '🍳', left: '', top: '' },
+	{ title: 'eating', emoji: '🍔', left: '38%', top: '53%' },
+	{ title: 'Movies', emoji: '🍿', left: '2%', top: '50%' },
+	{ title: 'Traveling', emoji: '✈️', left: '15%', top: '80%' },
+	{ title: 'Cooking', emoji: '🍳', left: '66%', top: '1%' },
 	{ title: 'Gaming', emoji: '🎮', left: '', top: '' },
 	{ title: 'Writing', emoji: '✍️', left: '', top: '' },
 	{ title: 'Art', emoji: '🎨', left: '', top: '' },
@@ -88,7 +88,7 @@ export const AboutSection = () => {
 							{hobbies.map((hobby) => (
 								<div
 									key={hobby.title}
-									className='inline-flex  items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute'
+									className='inline-flex  items-center gap-2 px-3 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1 absolute'
 									style={{
 										left: hobby.left,
 										top: hobby.top,
