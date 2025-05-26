@@ -13,6 +13,7 @@ import { TechIcon } from '@/components/TechIcon';
 import mapImage from '@/assets/images/map.png';
 import memojiImage from '@/assets/images/memoji-computer.png';
 import { CardHeader } from '@/components/CardHeader';
+import { ToolboxItems } from '@/components/ToolboxItems';
 
 const toolboxItems = [
 	{ title: 'JavaScript', iconType: JavascriptIcon },
@@ -71,19 +72,8 @@ export const AboutSection = () => {
 							title='My Toolbox'
 							description='Explore the technologies and tools I use to craft exceptional digital experiences'
 						/>
-						<div>
-							{toolboxItems.map((item) => (
-								<div
-									key={item.title}
-									className='inline-flex items-center gap-4 py-2 px-3 outline outline-2 outline-white/10 rounded-lg'
-								>
-									<TechIcon component={item.iconType} />
-									<span className='font-semibold'>
-										{item.title}
-									</span>
-								</div>
-							))}
-						</div>
+						<ToolboxItems items={toolboxItems} />
+						<ToolboxItems items={toolboxItems} />
 					</Card>
 					<Card>
 						<CardHeader
