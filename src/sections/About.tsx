@@ -107,11 +107,11 @@ export const AboutSection = () => {
 							alt='map Image'
 							className='h-full w-full object-cover'
 						/>
-						<div className='absolute top-1/2 size-20 '>
+						<div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-28 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400'>
 							<Image
 								src={memojiImage}
 								alt='Memoji on a map'
-								className='size-24'
+								className='size-20'
 							/>
 						</div>
 					</Card>
