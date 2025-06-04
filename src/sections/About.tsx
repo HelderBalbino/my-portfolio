@@ -56,7 +56,7 @@ export const AboutSection = () => {
 				/>
 				<div className='mt-20 flex flex-col gap-8'>
 					<div className='grid grid-cols-1 md:grid-cols-5 gap-8'>
-						<Card className='h-[320px] md:col-span-2'>
+						<Card className='h-[320px] p-0 md:col-span-2'>
 							<CardHeader
 								title='My Reads'
 								description='Explore the books shaping my perspectives'
