@@ -82,44 +82,46 @@ export const AboutSection = () => {
 							/>
 						</Card>
 					</div>
-					<Card className='h-[320px] p-0 flex flex-col'>
-						<CardHeader
-							title='My Hobbies'
-							description='Discover the activities that fuel my creativity and passion beyond coding'
-							className='px-6 py-6'
-						/>
-						<div className='relative flex-1'>
-							{hobbies.map((hobby) => (
-								<div
-									key={hobby.title}
-									className='inline-flex  items-center gap-2 px-3 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1 absolute'
-									style={{
-										left: hobby.left,
-										top: hobby.top,
-									}}
-								>
-									<span className='font-medium text-gray-950'>
-										{hobby.title}
-									</span>
-									<span>{hobby.emoji}</span>
-								</div>
-							))}
-						</div>
-					</Card>
-					<Card className='h-[320px] p-0 relative'>
-						<Image
-							src={mapImage}
-							alt='map Image'
-							className='h-full w-full object-cover'
-						/>
-						<div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-14 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 flex items-center justify-center after:content-[""] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full '>
-							<Image
-								src={memojiImage}
-								alt='Memoji on a map'
-								className='w-10 h-10 object-contain'
+					<div>
+						<Card className='h-[320px] p-0 flex flex-col'>
+							<CardHeader
+								title='My Hobbies'
+								description='Discover the activities that fuel my creativity and passion beyond coding'
+								className='px-6 py-6'
 							/>
-						</div>
-					</Card>
+							<div className='relative flex-1'>
+								{hobbies.map((hobby) => (
+									<div
+										key={hobby.title}
+										className='inline-flex  items-center gap-2 px-3 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1 absolute'
+										style={{
+											left: hobby.left,
+											top: hobby.top,
+										}}
+									>
+										<span className='font-medium text-gray-950'>
+											{hobby.title}
+										</span>
+										<span>{hobby.emoji}</span>
+									</div>
+								))}
+							</div>
+						</Card>
+						<Card className='h-[320px] p-0 relative'>
+							<Image
+								src={mapImage}
+								alt='map Image'
+								className='h-full w-full object-cover'
+							/>
+							<div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-14 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 flex items-center justify-center after:content-[""] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full '>
+								<Image
+									src={memojiImage}
+									alt='Memoji on a map'
+									className='w-10 h-10 object-contain'
+								/>
+							</div>
+						</Card>
+					</div>
 				</div>
 			</div>
 		</div>
