@@ -82,8 +82,8 @@ export const AboutSection = () => {
 							/>
 						</Card>
 					</div>
-					<div>
-						<Card className='h-[320px] p-0 flex flex-col'>
+					<div className='grid grid-cols-1 md:grid-cols-5 gap-8'>
+						<Card className='h-[320px] p-0 flex flex-col md:col-span-3'>
 							<CardHeader
 								title='My Hobbies'
 								description='Discover the activities that fuel my creativity and passion beyond coding'
@@ -107,7 +107,7 @@ export const AboutSection = () => {
 								))}
 							</div>
 						</Card>
-						<Card className='h-[320px] p-0 relative'>
+						<Card className='h-[320px] p-0 relative md:col-span-2'>
 							<Image
 								src={mapImage}
 								alt='map Image'
