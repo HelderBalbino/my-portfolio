@@ -58,7 +58,7 @@ export const ProjectsSection = () => {
 					description='See how I transformed concepts into engaging digital
 					experiences'
 				/>
-				<div className='mt-10 md:mt-20 flex flex-col gap-28 '>
+				<div className='mt-10 md:mt-20 flex flex-col gap-24 '>
 					{portfolioProjects.map((project) => (
 						<Card
 							key={project.title}
