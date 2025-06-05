@@ -2,7 +2,7 @@ import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 
 export const ContactSection = () => {
 	return (
-		<div>
+		<div className='py-16'>
 			<div className='container'>
 				<h2>Let's create something amazing together!</h2>
 				<p>
