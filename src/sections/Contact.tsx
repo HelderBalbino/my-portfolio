@@ -1,3 +1,5 @@
+import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
+
 export const ContactSection = () => {
 	return (
 		<div>
@@ -6,6 +8,10 @@ export const ContactSection = () => {
 				Whether you have a project in mind or just want to say hello,
 				I’d love to hear from you.
 			</p>
+			<button>
+				<span>Contact Me</span>
+				<ArrowUpRightIcon />
+			</button>
 		</div>
 	);
 };
