@@ -14,6 +14,7 @@ export default function Home() {
 			<TapeSection />
 			<TestimonialsSection />
 			<AboutSection />
+			<AboutSection />
 		</div>
 	);
 }
