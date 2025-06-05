@@ -1,11 +1,11 @@
+import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
+import CheckCircleIcon from '@/assets/icons/check-circle.svg';
+import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png';
 import darkSaasLandingPage from '@/assets/images/dark-saas-landing-page.png';
 import lightSaasLandingPage from '@/assets/images/light-saas-landing-page.png';
-import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png';
-import Image from 'next/image';
-import CheckCircleIcon from '@/assets/icons/check-circle.svg';
-import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import { SectionHeader } from '@/components/SectionHeader';
 import { Card } from '@/components/card';
+import Image from 'next/image';
 
 const portfolioProjects = [
 	{
@@ -58,39 +58,44 @@ export const ProjectsSection = () => {
 					description='See how I transformed concepts into engaging digital
 					experiences'
 				/>
-				<div className='mt-10 md:mt-20 flex flex-col gap-24 '>
+				<div className='mt-10 flex flex-col gap-24 md:mt-20'>
 					{portfolioProjects.map((project) => (
 						<Card
 							key={project.title}
-							className='px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20'
+							className='px-8 pb-0 pt-8 md:px-10 md:pt-12 lg:px-20 lg:pt-16'
 						>
 							<div className='lg:grid lg:grid-cols-2 lg:gap-16'>
 								<div className='lg:pb-16'>
-									<div className='bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text'>
+									<div className='inline-flex gap-2 bg-gradient-to-r from-emerald-300 to-sky-400 bg-clip-text text-sm font-bold uppercase tracking-widest text-transparent'>
 										<span>{project.company}</span>
 										<span>&bull;</span>
 										<span>{project.year}</span>
 									</div>
 
-									<h3 className='font-serif text-2xl mt-2 md:mt-5 md:text-4xl'>
+									<h3 className='mt-2 font-serif text-2xl md:mt-5 md:text-4xl'>
 										{project.title}
 									</h3>
-									<hr className='border-t-2 border-white/5 mt-4 md:mt-5' />
-									<ul className='flex flex-col gap-4 mt-4'>
-										{project.results.map((result) => (
-											<li className='flex gap-2 text-sm md:text-base text-white/50'>
-												<CheckCircleIcon className='size-5 md:size-6 text-emerald-300' />
-												<span>{result.title}</span>
-											</li>
-										))}
+									<hr className='mt-4 border-t-2 border-white/5 md:mt-5' />
+									<ul className='mt-4 flex flex-col gap-4'>
+										{project.results.map(
+											(result, index) => (
+												<li
+													key={index}
+													className='flex gap-2 text-sm text-white/50 md:text-base'
+												>
+													<CheckCircleIcon className='size-5 text-emerald-300 md:size-6' />
+													<span>{result.title}</span>
+												</li>
+											),
+										)}
 									</ul>
-									<div className='flex flex-col md:flex-row gap-4 mt-8'>
+									<div className='mt-8 flex flex-col gap-4 md:flex-row'>
 										<a
 											href={project.link}
 											target='_blank'
 											rel='noopener noreferrer'
 										>
-											<button className='bg-white text-gray-950 h-12 w-full px-6 md:w-auto rounded-xl font-semibold inline-flex items-center justify-center gap-2'>
+											<button className='inline-flex h-12 w-full items-center justify-center gap-2 rounded-xl bg-white px-6 font-semibold text-gray-950 md:w-auto'>
 												<span>Live Site</span>
 												<ArrowUpRightIcon className='size-4' />
 											</button>
@@ -100,7 +105,7 @@ export const ProjectsSection = () => {
 											target='_blank'
 											rel='noopener noreferrer'
 										>
-											<button className='border border-white text-white h-12 w-full px-6 md:w-auto rounded-xl font-semibold inline-flex items-center justify-center gap-2 hover:bg-white/10'>
+											<button className='inline-flex h-12 w-full items-center justify-center gap-2 rounded-xl border border-white px-6 font-semibold text-white hover:bg-white/10 md:w-auto'>
 												<span>View on GitHub</span>
 												<ArrowUpRightIcon className='size-4' />
 											</button>
@@ -111,7 +116,7 @@ export const ProjectsSection = () => {
 									<Image
 										src={project.image}
 										alt={project.title}
-										className='mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none'
+										className='-mb-4 mt-8 md:-mb-0 lg:absolute lg:mt-0 lg:h-full lg:w-auto lg:max-w-none'
 									/>
 								</div>
 							</div>

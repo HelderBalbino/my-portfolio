@@ -4,15 +4,15 @@ export const ContactSection = () => {
 	return (
 		<div className='py-16'>
 			<div className='container'>
-				<div className='bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900 py-8 px-10 rounded-3xl text-center'>
+				<div className='rounded-3xl bg-gradient-to-r from-emerald-300 to-sky-400 px-10 py-8 text-center text-gray-900'>
 					<h2 className='font-serif text-2xl'>
 						Let's create something amazing together!
 					</h2>
-					<p className='text-sm mt-4'>
+					<p className='mt-4 text-sm'>
 						Whether you have a project in mind or just want to say
 						hello, I’d love to hear from you.
 					</p>
-					<button className='text-white bg-gray-900 inline-flex items-center justify-center h-12 gap-2 px-6 mt-6 rounded-xl hover:bg-gray-800 transition-colors'>
+					<button className='mt-6 inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-gray-900 px-6 text-white transition-colors hover:bg-gray-800'>
 						<span className='font-semibold'>Contact Me</span>
 						<ArrowUpRightIcon className='size-4' />
 					</button>

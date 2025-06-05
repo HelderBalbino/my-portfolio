@@ -42,17 +42,17 @@ export const TestimonialsSection = () => {
 					title='What people say about me'
 					description="Don't just take my word for it. See what these wonderful people have to say about me."
 				/>
-				<div className='mt-16 lg:mt-24 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]'>
-					<div className='flex gap-9 flex-none'>
+				<div className='mt-16 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] lg:mt-24'>
+					<div className='flex flex-none gap-9'>
 						{testimonials.map((testimonial) => (
 							<Card
 								key={testimonial.name}
 								className='max-w-xs md:max-w-md md:p-8'
 							>
-								<div className='flex gap-1 items-center'>
-									<div className='inline-flex items-center justify-center mr-4 rounded-full bg-gray-100'>
+								<div className='flex items-center gap-1'>
+									<div className='mr-4 inline-flex items-center justify-center rounded-full bg-gray-100'>
 										<Image
-											className='size-14 inline-flex rounded-full max-h-full'
+											className='inline-flex size-14 max-h-full rounded-full'
 											src={testimonial.avatar}
 											alt={testimonial.name}
 											width={64}
@@ -69,7 +69,7 @@ export const TestimonialsSection = () => {
 										</div>
 									</div>
 								</div>
-								<p className='mt-4 md:mt-6 text-sm md:text-base'>
+								<p className='mt-4 text-sm md:mt-6 md:text-base'>
 									{testimonial.text}
 								</p>
 							</Card>

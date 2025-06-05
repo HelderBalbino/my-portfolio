@@ -55,13 +55,13 @@ export const AboutSection = () => {
 					description='Learn more about who I am, What I do, and what Inspires me.'
 				/>
 				<div className='mt-20 flex flex-col gap-8'>
-					<div className='grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 gap-8'>
+					<div className='grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3'>
 						<Card className='h-[320px] md:col-span-2 lg:col-span-1'>
 							<CardHeader
 								title='My Reads'
 								description='Explore the books shaping my perspectives'
 							/>
-							<div className='w-40 mx-auto mt-8'>
+							<div className='mx-auto mt-8 w-40'>
 								<Image src={bookImage} alt='Book Cover' />
 							</div>
 						</Card>
@@ -82,8 +82,8 @@ export const AboutSection = () => {
 							/>
 						</Card>
 					</div>
-					<div className='grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 gap-8'>
-						<Card className='h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2'>
+					<div className='grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3'>
+						<Card className='flex h-[320px] flex-col p-0 md:col-span-3 lg:col-span-2'>
 							<CardHeader
 								title='My Hobbies'
 								description='Discover the activities that fuel my creativity and passion beyond coding'
@@ -93,7 +93,7 @@ export const AboutSection = () => {
 								{hobbies.map((hobby) => (
 									<div
 										key={hobby.title}
-										className='inline-flex  items-center gap-2 px-3 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1 absolute'
+										className='absolute inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 px-3 py-1'
 										style={{
 											left: hobby.left,
 											top: hobby.top,
@@ -107,17 +107,17 @@ export const AboutSection = () => {
 								))}
 							</div>
 						</Card>
-						<Card className='h-[320px] p-0 relative md:col-span-2 lg:col-span-1'>
+						<Card className='relative h-[320px] p-0 md:col-span-2 lg:col-span-1'>
 							<Image
 								src={mapImage}
 								alt='map Image'
 								className='h-full w-full object-cover'
 							/>
-							<div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-14 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 flex items-center justify-center after:content-[""] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full '>
+							<div className='absolute left-1/2 top-1/2 flex size-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 after:absolute after:inset-0 after:rounded-full after:outline after:outline-2 after:-outline-offset-2 after:content-[""]'>
 								<Image
 									src={memojiImage}
 									alt='Memoji on a map'
-									className='w-10 h-10 object-contain'
+									className='h-10 w-10 object-contain'
 								/>
 							</div>
 						</Card>
