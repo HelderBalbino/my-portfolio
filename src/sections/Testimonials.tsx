@@ -2,9 +2,9 @@ import memojiAvatar1 from '@/assets/images/memoji-avatar-1.png';
 import memojiAvatar2 from '@/assets/images/memoji-avatar-2.png';
 import memojiAvatar3 from '@/assets/images/memoji-avatar-3.png';
 import memojiAvatar4 from '@/assets/images/memoji-avatar-4.png';
+import { Card } from '@/components/card';
 import { SectionHeader } from '@/components/SectionHeader';
 import Image from 'next/image';
-import { Card } from '@/components/card';
 
 const testimonials = [
 	{
@@ -28,7 +28,7 @@ const testimonials = [
 	{
 		name: 'Elyas Faiq',
 		position: 'Software Engineering at Certn.',
-		text: "Helder is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
+		text: 'I had the pleasure of working with Helder during the TechNative Digital bootcamp, and I’m grateful for the experience. His positivity is infectious, his curiosity for learning is inspiring, and he fits seamlessly into any team. Beyond that, he’s a strong coder with a genuine interest in exploring different solutions to problems.',
 		avatar: memojiAvatar4,
 	},
 ];
