@@ -56,7 +56,7 @@ export const AboutSection = () => {
 				/>
 				<div className='mt-20 flex flex-col gap-8'>
 					<div className='grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 gap-8'>
-						<Card className='h-[320px] md:col-span-2'>
+						<Card className='h-[320px] md:col-span-2 lg:col-span-1'>
 							<CardHeader
 								title='My Reads'
 								description='Explore the books shaping my perspectives'
@@ -65,7 +65,7 @@ export const AboutSection = () => {
 								<Image src={bookImage} alt='Book Cover' />
 							</div>
 						</Card>
-						<Card className='h-[320px] p-0 md:col-span-3'>
+						<Card className='h-[320px] p-0 md:col-span-3 lg:col-span-2'>
 							<CardHeader
 								title='My Toolbox'
 								description='Explore the technologies and tools I use to craft exceptional digital experiences'
@@ -82,8 +82,8 @@ export const AboutSection = () => {
 							/>
 						</Card>
 					</div>
-					<div className='grid grid-cols-1 md:grid-cols-5 gap-8'>
-						<Card className='h-[320px] p-0 flex flex-col md:col-span-3'>
+					<div className='grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 gap-8'>
+						<Card className='h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2'>
 							<CardHeader
 								title='My Hobbies'
 								description='Discover the activities that fuel my creativity and passion beyond coding'
@@ -107,7 +107,7 @@ export const AboutSection = () => {
 								))}
 							</div>
 						</Card>
-						<Card className='h-[320px] p-0 relative md:col-span-2'>
+						<Card className='h-[320px] p-0 relative md:col-span-2 lg:col-span-1'>
 							<Image
 								src={mapImage}
 								alt='map Image'
