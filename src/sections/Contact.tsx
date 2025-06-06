@@ -20,10 +20,14 @@ export const ContactSection = () => {
 								to say hello, I’d love to hear from you.
 							</p>
 						</div>
-						<button className='inline-flex h-12 items-center gap-2 rounded-xl bg-gray-900 px-6 text-white transition-colors hover:bg-gray-800'>
-							<span className='font-semibold'>Contact Me</span>
-							<ArrowUpRightIcon className='size-4' />
-						</button>
+						<div>
+							<button className='inline-flex h-12 items-center gap-2 rounded-xl bg-gray-900 px-6 text-white transition-colors hover:bg-gray-800'>
+								<span className='font-semibold'>
+									Contact Me
+								</span>
+								<ArrowUpRightIcon className='size-4' />
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
