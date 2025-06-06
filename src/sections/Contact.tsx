@@ -12,7 +12,7 @@ export const ContactSection = () => {
 						Whether you have a project in mind or just want to say
 						hello, I’d love to hear from you.
 					</p>
-					<button className='mt-6 inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-gray-900 px-6 text-white transition-colors hover:bg-gray-800'>
+					<button className='mt-8 inline-flex h-12 items-center gap-2 rounded-xl bg-gray-900 px-6 text-white transition-colors hover:bg-gray-800'>
 						<span className='font-semibold'>Contact Me</span>
 						<ArrowUpRightIcon className='size-4' />
 					</button>
