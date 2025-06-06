@@ -1,17 +1,17 @@
-import { SectionHeader } from '@/components/SectionHeader';
-import { Card } from '@/components/card';
-import bookImage from '@/assets/images/book-cover.png';
-import Image from 'next/image';
-import JavascriptIcon from '@/assets/icons/square-js.svg';
-import HTMLIcon from '@/assets/icons/html5.svg';
-import CssIcon from '@/assets/icons/css3.svg';
-import ReactIcon from '@/assets/icons/react.svg';
 import ChromeIcon from '@/assets/icons/chrome.svg';
+import CssIcon from '@/assets/icons/css3.svg';
 import GithubIcon from '@/assets/icons/github.svg';
+import HTMLIcon from '@/assets/icons/html5.svg';
+import ReactIcon from '@/assets/icons/react.svg';
+import JavascriptIcon from '@/assets/icons/square-js.svg';
+import bookImage from '@/assets/images/book-cover.png';
 import mapImage from '@/assets/images/map.png';
 import memojiImage from '@/assets/images/memoji-computer.png';
 import { CardHeader } from '@/components/CardHeader';
+import { SectionHeader } from '@/components/SectionHeader';
 import { ToolboxItems } from '@/components/ToolboxItems';
+import { Card } from '@/components/card';
+import Image from 'next/image';
 
 const toolboxItems = [
 	{ title: 'JavaScript', iconType: JavascriptIcon },
