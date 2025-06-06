@@ -10,17 +10,19 @@ export const ContactSection = () => {
 						className='absolute inset-0 -z-10 opacity-5'
 						style={{ backgroundImage: `url(${grainImage.src})` }}
 					></div>
-					<h2 className='font-serif text-2xl'>
-						Let's create something amazing together!
-					</h2>
-					<p className='mt-4 text-sm'>
-						Whether you have a project in mind or just want to say
-						hello, I’d love to hear from you.
-					</p>
-					<button className='mt-8 inline-flex h-12 items-center gap-2 rounded-xl bg-gray-900 px-6 text-white transition-colors hover:bg-gray-800'>
-						<span className='font-semibold'>Contact Me</span>
-						<ArrowUpRightIcon className='size-4' />
-					</button>
+					<div className='flex flex-col'>
+						<h2 className='font-serif text-2xl'>
+							Let's create something amazing together!
+						</h2>
+						<p className='mt-4 text-sm'>
+							Whether you have a project in mind or just want to
+							say hello, I’d love to hear from you.
+						</p>
+						<button className='mt-8 inline-flex h-12 items-center gap-2 rounded-xl bg-gray-900 px-6 text-white transition-colors hover:bg-gray-800'>
+							<span className='font-semibold'>Contact Me</span>
+							<ArrowUpRightIcon className='size-4' />
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>
