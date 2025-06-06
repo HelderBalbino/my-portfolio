@@ -5,9 +5,9 @@ export const ContactSection = () => {
 	return (
 		<div className='py-16 pt-14'>
 			<div className='container'>
-				<div className='relative overflow-hidden rounded-3xl bg-gradient-to-r from-emerald-300 to-sky-400 px-10 py-8 text-center text-gray-900'>
+				<div className='relative z-0 overflow-hidden rounded-3xl bg-gradient-to-r from-emerald-300 to-sky-400 px-10 py-8 text-center text-gray-900'>
 					<div
-						className='absolute inset-0'
+						className='absolute inset-0 -z-10 opacity-5'
 						style={{ backgroundImage: `url(${grainImage.src})` }}
 					></div>
 					<h2 className='font-serif text-2xl'>
