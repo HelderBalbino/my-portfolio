@@ -10,7 +10,7 @@ export const ContactSection = () => {
 						className='absolute inset-0 -z-10 opacity-5'
 						style={{ backgroundImage: `url(${grainImage.src})` }}
 					></div>
-					<div className='flex flex-col items-center gap-8 md:flex-row'>
+					<div className='flex flex-col items-center gap-8 md:flex-row md:gap-16'>
 						<div>
 							<h2 className='font-serif text-2xl md:text-3xl'>
 								Let's create something amazing together!
@@ -21,7 +21,7 @@ export const ContactSection = () => {
 							</p>
 						</div>
 						<div>
-							<button className='inline-flex h-12 items-center gap-2 rounded-xl bg-gray-900 px-6 text-white transition-colors hover:bg-gray-800'>
+							<button className='inline-flex h-12 w-max items-center gap-2 rounded-xl border border-gray-900 bg-gray-900 px-6 text-white transition-colors hover:border-gray-800 hover:bg-gray-700'>
 								<span className='font-semibold'>
 									Contact Me
 								</span>
