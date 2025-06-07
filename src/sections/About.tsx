@@ -28,7 +28,6 @@ const hobbies = [
 	{ title: 'Swimming', emoji: '🏊🏼‍♂️', left: '1%', top: '70%' },
 	{ title: 'Gaming', emoji: '📷', left: '30%', top: '80%' },
 	{ title: 'Cycling', emoji: '🚴‍♂️', left: '25%', top: '45%' },
-	{ title: 'Dancing', emoji: '🕺🏽', left: '80%', top: '10%' },
 	{ title: 'Gardening', emoji: '🌱', left: '82%', top: '34%' },
 	{ title: 'Podcasts', emoji: '🎙️', left: '55%', top: '25%' },
 	{ title: 'Music', emoji: '🎵', left: '88%', top: '80%' },
