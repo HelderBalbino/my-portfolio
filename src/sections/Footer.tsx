@@ -15,7 +15,7 @@ export const Footer = () => {
 	return (
 		<footer>
 			<div className='container'>
-				<div>
+				<div className='flex flex-col items-center border-t border-white/15 py-6'>
 					<div>
 						&copy; {new Date().getFullYear()} Helder Balbino. All
 						rights reserved.
