@@ -20,7 +20,7 @@ export const Footer = () => {
 						&copy; {new Date().getFullYear()} Helder Balbino. All
 						rights reserved.
 					</div>
-					<nav>
+					<nav className='flex flex-col items-center'>
 						{footerLinks.map((link) => (
 							<a
 								href=''
