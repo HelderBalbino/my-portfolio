@@ -1,3 +1,14 @@
+const footerLinks = [
+	{
+		title: 'LinkedIn',
+		href: 'https://www.linkedin.com/in/helderbalbino/',
+	},
+	{
+		title: 'GitHub',
+		href: '/projects',
+	},
+];
+
 export const Footer = () => {
 	return (
 		<footer>
