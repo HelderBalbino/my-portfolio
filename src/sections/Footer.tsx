@@ -14,7 +14,7 @@ const footerLinks = [
 export const Footer = () => {
 	return (
 		<footer>
-			<div className='container py-10'>
+			<div className='container'>
 				<div>
 					<div>
 						&copy; {new Date().getFullYear()} Helder Balbino. All
