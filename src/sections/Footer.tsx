@@ -27,7 +27,9 @@ export const Footer = () => {
 								key={link.title}
 								className='gap.1.5 inline-flex'
 							>
-								<span>{link.title}</span>
+								<span className='font-semibold'>
+									{link.title}
+								</span>
 								<ArrowUpRightIcon className='size-4' />
 							</a>
 						))}
