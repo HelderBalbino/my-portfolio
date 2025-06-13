@@ -3,7 +3,7 @@ import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 const footerLinks = [
 	{
 		title: 'LinkedIn',
-		href: 'https://www.linkedin.com/in/helderbalbino/',
+		href: 'https://www.linkedin.com/in/helder-balbino-18184a100/',
 	},
 	{
 		title: 'GitHub',
@@ -23,7 +23,7 @@ export const Footer = () => {
 					<nav className='flex flex-col items-center'>
 						{footerLinks.map((link) => (
 							<a
-								href=''
+								href={link.href}
 								key={link.title}
 								className='gap.1.5 inline-flex'
 							>
