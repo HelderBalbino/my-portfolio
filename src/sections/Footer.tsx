@@ -15,12 +15,12 @@ export const Footer = () => {
 	return (
 		<footer>
 			<div className='container'>
-				<div className='flex flex-col items-center border-t border-white/15 py-6 text-base'>
+				<div className='flex flex-col items-center gap-8 border-t border-white/15 py-6 text-base'>
 					<div className='text-white/40'>
 						&copy; {new Date().getFullYear()} Helder Balbino. All
 						rights reserved.
 					</div>
-					<nav className='flex flex-col items-center'>
+					<nav className='flex flex-col items-center gap-3'>
 						{footerLinks.map((link) => (
 							<a
 								href={link.href}
