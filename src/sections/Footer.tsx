@@ -7,7 +7,7 @@ const footerLinks = [
 	},
 	{
 		title: 'GitHub',
-		href: '/projects',
+		href: 'https://github.com/HelderBalbino',
 	},
 ];
 
