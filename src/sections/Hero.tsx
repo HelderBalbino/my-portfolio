@@ -64,7 +64,7 @@ export const HeroSection = () => {
 					/>
 					<div className='inline-flex items-center gap-4 rounded-lg border-2 border-gray-800 bg-gray-950 px-4 py-1.5'>
 						<div className='relative size-2.5 rounded-full bg-green-500'>
-							<div className='absolute inset-0 animate-ping rounded-full bg-green-500'></div>
+							<div className='animate-ping-large absolute inset-0 rounded-full bg-green-500'></div>
 						</div>
 						<div className='text-sm font-medium'>
 							Available for new projects
