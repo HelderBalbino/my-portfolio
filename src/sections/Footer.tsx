@@ -13,7 +13,7 @@ const footerLinks = [
 
 export const Footer = () => {
 	return (
-		<footer>
+		<footer className='relative -z-10 overflow-x-clip'>
 			<div className='container'>
 				<div className='flex flex-col items-center gap-8 border-t border-white/15 py-6 text-base'>
 					<div className='text-white/40'>
