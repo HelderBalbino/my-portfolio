@@ -25,6 +25,14 @@ const config: Config = {
 				sans: 'var(--font-sans)',
 				serif: 'var(--font-serif)',
 			},
+			keyframes: {
+				'ping-large': {
+					'75%, 100%': {
+						transform: 'scale(3)',
+						opacity: '0',
+					},
+				},
+			},
 		},
 	},
 	plugins: [],
