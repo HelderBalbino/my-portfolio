@@ -42,12 +42,12 @@ export const TestimonialsSection = () => {
 					title='What people say about me'
 					description="Don't just take my word for it. See what these wonderful people have to say about me."
 				/>
-				<div className='mt-16 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] lg:mt-24'>
+				<div className='mt-16 flex overflow-x-clip py-4 [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] lg:mt-24'>
 					<div className='flex flex-none gap-9'>
 						{testimonials.map((testimonial) => (
 							<Card
 								key={testimonial.name}
-								className='max-w-xs md:max-w-md md:p-8'
+								className='max-w-xs transition-transform duration-300 ease-in-out hover:scale-[1.05] md:max-w-md md:p-8'
 							>
 								<div className='flex items-center gap-1'>
 									<div className='mr-4 inline-flex items-center justify-center rounded-full bg-gray-100'>
