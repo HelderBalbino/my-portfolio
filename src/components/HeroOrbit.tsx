@@ -5,11 +5,15 @@ export const HeroOrbit = ({
 	size,
 	rotation,
 	shouldOrbit = false,
+	shouldSpin = false,
+	spinDuration,
 	orbitDuration,
 }: PropsWithChildren<{
 	size: number;
 	rotation: number;
 	shouldOrbit?: boolean;
+	shouldSpin?: boolean;
+	spinDuration?: string;
 	orbitDuration?: string;
 }>) => {
 	return (
