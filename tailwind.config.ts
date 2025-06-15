@@ -28,6 +28,7 @@ const config: Config = {
 			animation: {
 				'ping-large': 'ping-large 1s ease-in-out infinite',
 				'ping-star': 'ping-star 12s ease-in-out infinite',
+				'move-left': 'move-left 1s linear infinite',
 			},
 			keyframes: {
 				'ping-large': {
@@ -40,6 +41,14 @@ const config: Config = {
 					'75%, 46%': {
 						transform: 'scale(1.2)',
 						opacity: '26%',
+					},
+				},
+				'move-left': {
+					'0%': {
+						transform: 'translateX(0%)',
+					},
+					'100%': {
+						transform: 'translateX(-50%)',
 					},
 				},
 			},
