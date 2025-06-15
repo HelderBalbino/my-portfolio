@@ -39,7 +39,7 @@ const config: Config = {
 				'ping-star': {
 					'75%, 46%': {
 						transform: 'scale(1.2)',
-						opacity: '',
+						opacity: '26%',
 					},
 				},
 			},
