@@ -44,7 +44,7 @@ export const TestimonialsSection = () => {
 					description="Don't just take my word for it. See what these wonderful people have to say about me."
 				/>
 				<div className='mt-16 flex overflow-x-clip py-4 [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] lg:mt-24'>
-					<div className='animate-move-left flex flex-none gap-9 [animation-duration:60s] hover:[animation-play-state:paused]'>
+					<div className='animate-move-left flex flex-none gap-9 pr-8 [animation-duration:60s] hover:[animation-play-state:paused]'>
 						{[...new Array(2)].fill(0).map((_, index) => (
 							<Fragment key={index}>
 								{testimonials.map((testimonial) => (
