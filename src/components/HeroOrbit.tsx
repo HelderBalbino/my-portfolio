@@ -6,20 +6,22 @@ export const HeroOrbit = ({
 	rotation,
 }: PropsWithChildren<{ size: number; rotation: number }>) => {
 	return (
-		<div className='absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2'>
-			<div
-				className='flex animate-spin items-start justify-start'
-				style={{
-					transform: `rotate(${rotation}deg)`,
-					height: `${size}px`,
-					width: `${size}px`,
-				}}
-			>
+		<div className='absolute left-1/2 top-1/2 -z-20 -translate-x-1/2 -translate-y-1/2'>
+			<div className='animate-spin [animation-duration:60s]'>
 				<div
-					className='inline-flex'
-					style={{ transform: `rotate(${rotation * -1}deg)` }}
+					className='flex items-start justify-start'
+					style={{
+						transform: `rotate(${rotation}deg)`,
+						height: `${size}px`,
+						width: `${size}px`,
+					}}
 				>
-					{children}
+					<div
+						className='inline-flex'
+						style={{ transform: `rotate(${rotation * -1}deg)` }}
+					>
+						{children}
+					</div>
 				</div>
 			</div>
 		</div>
