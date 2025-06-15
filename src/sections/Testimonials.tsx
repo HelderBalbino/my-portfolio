@@ -5,6 +5,7 @@ import memojiAvatar4 from '@/assets/images/memoji-avatar-4.png';
 import { Card } from '@/components/card';
 import { SectionHeader } from '@/components/SectionHeader';
 import Image from 'next/image';
+import { Fragment } from 'react';
 
 const testimonials = [
 	{
@@ -43,36 +44,40 @@ export const TestimonialsSection = () => {
 					description="Don't just take my word for it. See what these wonderful people have to say about me."
 				/>
 				<div className='mt-16 flex overflow-x-clip py-4 [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] lg:mt-24'>
-					<div className='flex flex-none gap-9'>
-						{testimonials.map((testimonial) => (
-							<Card
-								key={testimonial.name}
-								className='max-w-xs transition-transform duration-300 ease-in-out hover:scale-[1.05] md:max-w-md md:p-8'
-							>
-								<div className='flex items-center gap-1'>
-									<div className='mr-4 inline-flex items-center justify-center rounded-full bg-gray-100'>
-										<Image
-											className='inline-flex size-14 max-h-full rounded-full'
-											src={testimonial.avatar}
-											alt={testimonial.name}
-											width={64}
-											height={64}
-										/>
-									</div>
+					<div className='animate-move-left flex flex-none gap-9 [animation-duration:60s] hover:[animation-play-state:paused]'>
+						{[...new Array(2)].fill(0).map((_, index) => (
+							<Fragment key={index}>
+								{testimonials.map((testimonial) => (
+									<Card
+										key={testimonial.name}
+										className='max-w-xs transition-transform duration-300 ease-in-out hover:scale-[1.05] md:max-w-md md:p-8'
+									>
+										<div className='flex items-center gap-1'>
+											<div className='mr-4 inline-flex items-center justify-center rounded-full bg-gray-100'>
+												<Image
+													className='inline-flex size-14 max-h-full rounded-full'
+													src={testimonial.avatar}
+													alt={testimonial.name}
+													width={64}
+													height={64}
+												/>
+											</div>
 
-									<div>
-										<div className='font-semibold'>
-											{testimonial.name}
+											<div>
+												<div className='font-semibold'>
+													{testimonial.name}
+												</div>
+												<div className='text-sm text-white/50'>
+													{testimonial.position}
+												</div>
+											</div>
 										</div>
-										<div className='text-sm text-white/50'>
-											{testimonial.position}
-										</div>
-									</div>
-								</div>
-								<p className='mt-4 text-sm md:mt-6 md:text-base'>
-									{testimonial.text}
-								</p>
-							</Card>
+										<p className='mt-4 text-sm md:mt-6 md:text-base'>
+											{testimonial.text}
+										</p>
+									</Card>
+								))}
+							</Fragment>
 						))}
 					</div>
 				</div>
