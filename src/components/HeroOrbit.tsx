@@ -23,11 +23,13 @@ export const HeroOrbit = ({
 						width: `${size}px`,
 					}}
 				>
-					<div
-						className='inline-flex'
-						style={{ transform: `rotate(${rotation * -1}deg)` }}
-					>
-						{children}
+					<div className='animate-spin [animation-duration:20s]'>
+						<div
+							className='inline-flex'
+							style={{ transform: `rotate(${rotation * -1}deg)` }}
+						>
+							{children}
+						</div>
 					</div>
 				</div>
 			</div>
