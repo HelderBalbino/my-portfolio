@@ -27,12 +27,19 @@ const config: Config = {
 			},
 			animation: {
 				'ping-large': 'ping-large 1s ease-in-out infinite',
+				'ping-star': 'ping-star 12s ease-in-out infinite',
 			},
 			keyframes: {
 				'ping-large': {
 					'75%, 100%': {
 						transform: 'scale(3)',
 						opacity: '0',
+					},
+				},
+				'ping-star': {
+					'75%, 46%': {
+						transform: 'scale(1.2)',
+						opacity: '',
 					},
 				},
 			},

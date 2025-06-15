@@ -57,7 +57,7 @@ export const HeroSection = () => {
 					shouldSpin
 					spinDuration='15s'
 				>
-					<SparkleIcon className='size-10 text-emerald-300/20' />
+					<SparkleIcon className='animate-ping-star size-10 text-emerald-300/20' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={550}
@@ -67,7 +67,7 @@ export const HeroSection = () => {
 					shouldSpin
 					spinDuration='15s'
 				>
-					<StarIcon className='size-12 text-emerald-300' />
+					<StarIcon className='animate-ping-star size-12 text-emerald-300' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={590}
@@ -77,7 +77,7 @@ export const HeroSection = () => {
 					shouldSpin
 					spinDuration='15s'
 				>
-					<StarIcon className='size-8 text-emerald-300' />
+					<StarIcon className='animate-ping-star size-8 text-emerald-300' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={650}
@@ -85,7 +85,7 @@ export const HeroSection = () => {
 					shouldOrbit
 					orbitDuration='42s'
 				>
-					<div className='size-2 rounded-full bg-emerald-300/20' />
+					<div className='animate-ping-star size-2 rounded-full bg-emerald-300/20' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={710}
@@ -95,7 +95,7 @@ export const HeroSection = () => {
 					shouldSpin
 					spinDuration='15s'
 				>
-					<SparkleIcon className='size-14 text-emerald-300/20' />
+					<SparkleIcon className='animate-ping-star size-14 text-emerald-300/20' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={720}
@@ -103,7 +103,7 @@ export const HeroSection = () => {
 					shouldOrbit
 					orbitDuration='46s'
 				>
-					<div className='size-3 rounded-full bg-emerald-300/20' />
+					<div className='animate-ping-star size-3 rounded-full bg-emerald-300/20' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={700}
@@ -113,7 +113,7 @@ export const HeroSection = () => {
 					shouldSpin
 					spinDuration='15s'
 				>
-					<StarIcon className='size-20 text-emerald-300' />
+					<StarIcon className='animate-ping-star size-20 text-emerald-300' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={800}
@@ -123,7 +123,7 @@ export const HeroSection = () => {
 					shouldSpin
 					spinDuration='15s'
 				>
-					<StarIcon className='size-28 text-emerald-300' />
+					<StarIcon className='animate-ping-star size-28 text-emerald-300' />
 				</HeroOrbit>
 			</div>
 
