@@ -112,7 +112,9 @@ export const AboutSection = () => {
 								alt='map Image'
 								className='h-full w-full object-cover'
 							/>
-							<div className='absolute left-1/2 top-1/2 flex size-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 after:absolute after:inset-0 after:rounded-full after:outline after:outline-2 after:-outline-offset-2 after:content-[""]'>
+							<div className='absolute left-1/2 top-1/2 flex size-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full after:absolute after:inset-0 after:rounded-full after:outline after:outline-2 after:-outline-offset-2 after:content-[""]'>
+								<div className='absolute inset-0 -z-20 animate-ping rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 [animation-duration:2s]'></div>
+								<div className='absolute inset-0 -z-10 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400'></div>
 								<Image
 									src={memojiImage}
 									alt='Memoji on a map'
