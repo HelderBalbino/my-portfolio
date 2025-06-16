@@ -93,7 +93,7 @@ export const AboutSection = () => {
 								className='px-6 py-6'
 							/>
 							<div
-								className='relative flex-1'
+								className='relative flex-1 hover:cursor-grab active:cursor-grabbing'
 								ref={constraintRef}
 							>
 								{hobbies.map((hobby) => (
