@@ -26,6 +26,16 @@ export const HeroSection = () => {
 				<div className='hero-ring size-[1220px]'></div>
 				{/* stars icons from heroOrbit */}
 				<HeroOrbit
+					size={500}
+					rotation={-124}
+					shouldOrbit
+					orbitDuration='30s'
+					shouldSpin
+					spinDuration='15s'
+				>
+					<SparkleIcon className='size-20 text-emerald-300/20' />
+				</HeroOrbit>
+				<HeroOrbit
 					size={430}
 					rotation={-14}
 					shouldOrbit
