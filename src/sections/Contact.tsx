@@ -21,12 +21,15 @@ export const ContactSection = () => {
 							</p>
 						</div>
 						<div>
-							<button className='inline-flex h-12 w-max items-center gap-2 rounded-xl border border-gray-900 bg-gray-900 px-6 text-white transition-colors hover:border-gray-800 hover:bg-gray-700'>
+							<a
+								href="mailto:helderbalbino@googlemail.com?subject=Let's work together&body=Hello Helder! I'd like to discuss a project with you."
+								className='inline-flex h-12 w-max items-center gap-2 rounded-xl border border-gray-900 bg-gray-900 px-6 text-white transition-colors hover:border-gray-800 hover:bg-gray-700'
+							>
 								<span className='font-semibold'>
 									Contact Me
 								</span>
 								<ArrowUpRightIcon className='size-4' />
-							</button>
+							</a>
 						</div>
 					</div>
 				</div>
