@@ -1,3 +1,4 @@
+'use client';
 import ChromeIcon from '@/assets/icons/chrome.svg';
 import CssIcon from '@/assets/icons/css3.svg';
 import GithubIcon from '@/assets/icons/github.svg';
@@ -11,6 +12,7 @@ import { CardHeader } from '@/components/CardHeader';
 import { SectionHeader } from '@/components/SectionHeader';
 import { ToolboxItems } from '@/components/ToolboxItems';
 import { Card } from '@/components/card';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const toolboxItems = [
@@ -90,7 +92,7 @@ export const AboutSection = () => {
 							/>
 							<div className='relative flex-1'>
 								{hobbies.map((hobby) => (
-									<div
+									<motion.div
 										key={hobby.title}
 										className='absolute inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 px-3 py-1'
 										style={{
@@ -102,7 +104,7 @@ export const AboutSection = () => {
 											{hobby.title}
 										</span>
 										<span>{hobby.emoji}</span>
-									</div>
+									</motion.div>
 								))}
 							</div>
 						</Card>
