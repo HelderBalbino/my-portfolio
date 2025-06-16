@@ -216,7 +216,7 @@ export const HeroSection = () => {
 					</a>
 
 					<a
-						href=''
+						href='https://www.linkedin.com/in/helder-balbino-18184a100/'
 						target='_blank'
 						rel='noopener noreferrer'
 						className='z-0'
