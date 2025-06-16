@@ -3,6 +3,7 @@ import SparkleIcon from '@/assets/icons/sparkle.svg';
 import StarIcon from '@/assets/icons/star.svg';
 import grainImage from '@/assets/images/grain.jpg';
 import memojiImage from '@/assets/images/memoji-computer.png';
+import saturnIcon from '@/assets/images/saturn.png';
 import { HeroOrbit } from '@/components/HeroOrbit';
 import Image from 'next/image';
 
@@ -57,7 +58,7 @@ export const HeroSection = () => {
 					shouldSpin
 					spinDuration='15s'
 				>
-					<SparkleIcon className='animate-ping-star size-10 text-emerald-300/20' />
+					<SparkleIcon className='size-10 animate-ping-star text-emerald-300/20' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={550}
@@ -67,7 +68,7 @@ export const HeroSection = () => {
 					shouldSpin
 					spinDuration='15s'
 				>
-					<StarIcon className='animate-ping-star size-12 text-emerald-300' />
+					<StarIcon className='size-12 animate-ping-star text-emerald-300' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={590}
@@ -77,7 +78,7 @@ export const HeroSection = () => {
 					shouldSpin
 					spinDuration='15s'
 				>
-					<StarIcon className='animate-ping-star size-8 text-emerald-300' />
+					<StarIcon className='size-8 animate-ping-star text-emerald-300' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={650}
@@ -85,7 +86,7 @@ export const HeroSection = () => {
 					shouldOrbit
 					orbitDuration='42s'
 				>
-					<div className='animate-ping-star size-2 rounded-full bg-emerald-300/20' />
+					<div className='size-2 animate-ping-star rounded-full bg-emerald-300/20' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={710}
@@ -95,7 +96,7 @@ export const HeroSection = () => {
 					shouldSpin
 					spinDuration='15s'
 				>
-					<SparkleIcon className='animate-ping-star size-14 text-emerald-300/20' />
+					<SparkleIcon className='size-14 animate-ping-star text-emerald-300/20' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={720}
@@ -103,7 +104,15 @@ export const HeroSection = () => {
 					shouldOrbit
 					orbitDuration='46s'
 				>
-					<div className='animate-ping-star size-3 rounded-full bg-emerald-300/20' />
+					<div className='size-3 animate-ping-star rounded-full bg-emerald-300/20' />
+				</HeroOrbit>
+				<HeroOrbit
+					size={500}
+					rotation={45}
+					shouldOrbit
+					orbitDuration='46s'
+				>
+					<div className='size-3 animate-ping-star rounded-full bg-emerald-300/20' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={700}
@@ -113,17 +122,25 @@ export const HeroSection = () => {
 					shouldSpin
 					spinDuration='15s'
 				>
-					<StarIcon className='animate-ping-star size-20 text-emerald-300' />
+					<StarIcon className='size-20 animate-ping-star text-emerald-300' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={800}
-					rotation={-92}
+					rotation={-200}
 					shouldOrbit
 					orbitDuration='48s'
 					shouldSpin
 					spinDuration='15s'
 				>
-					<StarIcon className='animate-ping-star size-28 text-emerald-300' />
+					<StarIcon className='size-20 animate-ping-star text-emerald-300' />
+				</HeroOrbit>
+				<HeroOrbit
+					size={900}
+					rotation={120}
+					shouldOrbit
+					orbitDuration='280s'
+				>
+					<Image src={saturnIcon} className='size-16' alt='Saturn' />
 				</HeroOrbit>
 			</div>
 
@@ -136,7 +153,7 @@ export const HeroSection = () => {
 					/>
 					<div className='inline-flex items-center gap-4 rounded-lg border-2 border-gray-800 bg-gray-950 px-4 py-1.5'>
 						<div className='relative size-2.5 rounded-full bg-green-500'>
-							<div className='animate-ping-large absolute inset-0 rounded-full bg-green-500'></div>
+							<div className='absolute inset-0 animate-ping-large rounded-full bg-green-500'></div>
 						</div>
 						<div className='text-sm font-medium'>
 							Available for new projects
