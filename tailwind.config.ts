@@ -51,6 +51,14 @@ const config: Config = {
 						transform: 'translateX(-50%)',
 					},
 				},
+				'move-right': {
+					'0%': {
+						transform: 'translateX(-50%)',
+					},
+					'100%': {
+						transform: 'translateX(0%)',
+					},
+				},
 			},
 		},
 	},
