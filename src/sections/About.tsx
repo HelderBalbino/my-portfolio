@@ -14,6 +14,7 @@ import { ToolboxItems } from '@/components/ToolboxItems';
 import { Card } from '@/components/card';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { useRef } from 'react';
 
 const toolboxItems = [
 	{ title: 'JavaScript', iconType: JavascriptIcon },
@@ -46,6 +47,7 @@ const hobbies = [
 ];
 
 export const AboutSection = () => {
+	const constraintRef = useRef(null);
 	return (
 		<div className='py-20 lg:py-28'>
 			<div className='container'>
@@ -90,7 +92,10 @@ export const AboutSection = () => {
 								description='Discover the activities that fuel my creativity and passion beyond coding'
 								className='px-6 py-6'
 							/>
-							<div className='relative flex-1'>
+							<div
+								className='relative flex-1'
+								ref={constraintRef}
+							>
 								{hobbies.map((hobby) => (
 									<motion.div
 										key={hobby.title}
@@ -99,6 +104,10 @@ export const AboutSection = () => {
 											left: hobby.left,
 											top: hobby.top,
 										}}
+										drag
+										dragConstraints={constraintRef}
+										dragElastic={0.2}
+										whileHover={{ scale: 1.1 }}
 									>
 										<span className='font-medium text-gray-950'>
 											{hobby.title}
