@@ -13,9 +13,11 @@ const portfolioProjects = [
 		year: '2025',
 		title: 'Mixtapemagic',
 		results: [
-			{ title: 'Enhanced user experience by 30%' },
-			{ title: 'Improved site speed by 50%' },
-			{ title: 'Increased mobile traffic by 35%' },
+			{
+				title: 'Implemented Dynamic UI Components',
+			},
+			{ title: 'User Authentication' },
+			{ title: ' Fully Responsive' },
 		],
 		link: 'https://mixtapemagic.netlify.app/',
 		github: 'https://github.com/technative-academy/Mixtape-Magic',
@@ -26,9 +28,9 @@ const portfolioProjects = [
 		year: '2025',
 		title: 'Movie Search App',
 		results: [
-			{ title: 'Boosted sales by 50%' },
-			{ title: 'Expanded customer reach by 35%' },
-			{ title: 'Increased brand awareness by 15%' },
+			{ title: 'Dynamic content' },
+			{ title: 'API Integration' },
+			{ title: 'Fully Responsive' },
 		],
 		link: 'https://helderbalbino.github.io/Movie-search-app/',
 		github: 'https://github.com/helderbalbino/Movie-search-app',
@@ -43,7 +45,19 @@ const portfolioProjects = [
 			{ title: 'Improved site speed by 50%' },
 			{ title: 'Increased mobile traffic by 35%' },
 		],
-		link: 'https://youtu.be/Z7I5uSRHMHg',
+		link: '',
+		image: aiStartupLandingPage,
+	},
+	{
+		company: 'Personal Project',
+		year: '2025',
+		title: "Bartenders' Hub",
+		results: [
+			{ title: 'Currently in Progress' },
+			{ title: '' },
+			{ title: '' },
+		],
+		link: '',
 		image: aiStartupLandingPage,
 	},
 ];
