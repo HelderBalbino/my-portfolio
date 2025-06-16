@@ -170,7 +170,7 @@ export const HeroSection = () => {
 					<StarIcon className='size-20 animate-ping-star text-emerald-300' />
 				</HeroOrbit>
 				<HeroOrbit
-					size={900}
+					size={929}
 					rotation={120}
 					shouldOrbit
 					orbitDuration='280s'
