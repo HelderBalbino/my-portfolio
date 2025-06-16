@@ -3,7 +3,9 @@ import SparkleIcon from '@/assets/icons/sparkle.svg';
 import StarIcon from '@/assets/icons/star.svg';
 import grainImage from '@/assets/images/grain.jpg';
 import memojiImage from '@/assets/images/memoji-computer.png';
+import redPlanet from '@/assets/images/redPlanet.png';
 import saturnIcon from '@/assets/images/saturn.png';
+import venus from '@/assets/images/venus.png';
 import { HeroOrbit } from '@/components/HeroOrbit';
 import Image from 'next/image';
 
@@ -26,14 +28,34 @@ export const HeroSection = () => {
 				<div className='hero-ring size-[1220px]'></div>
 				{/* stars icons from heroOrbit */}
 				<HeroOrbit
-					size={500}
+					size={629}
+					rotation={-14}
+					shouldOrbit
+					orbitDuration='60s'
+					shouldSpin
+					spinDuration='15s'
+				>
+					<Image src={venus} className='size-11' alt='Saturn' />
+				</HeroOrbit>
+				<HeroOrbit
+					size={488}
 					rotation={-124}
+					shouldOrbit
+					orbitDuration='60s'
+					shouldSpin
+					spinDuration='15s'
+				>
+					<Image src={redPlanet} className='size-11' alt='Saturn' />
+				</HeroOrbit>
+				<HeroOrbit
+					size={700}
+					rotation={-134}
 					shouldOrbit
 					orbitDuration='30s'
 					shouldSpin
 					spinDuration='15s'
 				>
-					<SparkleIcon className='size-20 text-emerald-300/20' />
+					<SparkleIcon className='size-11 text-emerald-300/20' />
 				</HeroOrbit>
 				<HeroOrbit
 					size={430}
