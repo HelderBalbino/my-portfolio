@@ -122,7 +122,7 @@ export const ProjectsSection = () => {
 											target='_blank'
 											rel='noopener noreferrer'
 										>
-											<button className='inline-flex h-12 w-full items-center justify-center gap-2 rounded-xl border border-white px-6 font-semibold text-white hover:bg-white/10 md:w-auto'>
+											<button className='inline-flex h-12 w-full items-center justify-center gap-2 rounded-xl border border-white px-6 font-semibold text-white hover:bg-white hover:text-gray-900 md:w-auto'>
 												<span>View on GitHub</span>
 												<ArrowUpRightIcon className='size-4' />
 											</button>
