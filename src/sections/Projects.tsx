@@ -1,7 +1,7 @@
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import CheckCircleIcon from '@/assets/icons/check-circle.svg';
 import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png';
-import bartendersHubLandingPage from '@/assets/images/bartenders-hub-landing-page.png';
+import bartendersHubLandingPage from '@/assets/images/bartendersHubLandingPage.png';
 import darkSaasLandingPage from '@/assets/images/dark-saas-landing-page.png';
 import lightSaasLandingPage from '@/assets/images/light-saas-landing-page.png';
 import { SectionHeader } from '@/components/SectionHeader';
