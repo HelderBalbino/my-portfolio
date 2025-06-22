@@ -58,7 +58,7 @@ const portfolioProjects = [
 			{ title: '' },
 			{ title: '' },
 		],
-		link: '',
+		link: 'https://bartendershub.vercel.app/',
 		image: bartendersHubLandingPage,
 	},
 ];
