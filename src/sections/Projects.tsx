@@ -59,6 +59,7 @@ const portfolioProjects = [
 			{ title: '' },
 		],
 		link: 'https://bartendershub.vercel.app/',
+		github: 'https://github.com/HelderBalbino/BartendersHub',
 		image: bartendersHubLandingPage,
 	},
 ];
