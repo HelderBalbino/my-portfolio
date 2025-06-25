@@ -41,7 +41,11 @@ const portfolioProjects = [
 		company: 'TechNative',
 		year: '2025',
 		title: 'AI Startup Landing Page',
-		results: [{ title: '' }, { title: '' }, { title: '' }],
+		results: [
+			{ title: 'Currently in Progress' },
+			{ title: '' },
+			{ title: '' },
+		],
 		link: '',
 		image: aiStartupLandingPage,
 	},
