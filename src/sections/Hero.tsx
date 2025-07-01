@@ -223,9 +223,7 @@ export const HeroSection = () => {
 					>
 						<button className='inline-flex h-12 items-center gap-2 rounded-xl border border-white bg-white px-6 text-gray-900'>
 							<span>👋🏽</span>
-							<span className='font-semibold'>
-								Let's connect'
-							</span>
+							<span className='font-semibold'>Let's connect</span>
 						</button>
 					</a>
 				</div>
