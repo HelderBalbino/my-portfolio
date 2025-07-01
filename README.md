@@ -6,7 +6,7 @@ and high-performing applications.
 
 ## 🚀 Live Portfolio
 
-\*\*[View Portfolio](https://www.helderbalbino.com/)
+\*[View Portfolio](https://www.helderbalbino.com/)
 
 ## 👨‍💻 About Me
 
