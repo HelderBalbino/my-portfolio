@@ -6,9 +6,9 @@ and high-performing applications.
 
 ## 🚀 Live Portfolio
 
-\*[View Portfolio](https://www.helderbalbino.com/)
+[View My Portfolio](https://www.helderbalbino.com/)
 
-## 👨‍💻 About Me
+## 👨🏻‍💻 About Me
 
 I'm a dedicated software developer who recently completed an intensive 16-week
 software development bootcamp at TechNative Digital. I specialize in
