@@ -1,4 +1,4 @@
-# Helder Balbino - Full Stack Developer 👨‍💻
+# Helder Balbino - Full Stack Developer 👨🏻‍💻
 
 Welcome to my portfolio! I'm a passionate full-stack developer specializing in
 modern web technologies, with a focus on creating exceptional user experiences
