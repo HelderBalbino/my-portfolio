@@ -6,8 +6,7 @@ and high-performing applications.
 
 ## 🚀 Live Portfolio
 
-**[View Portfolio](https://helderbalbino-portfolio.vercel.app)** _(Update with
-your actual Vercel URL)_
+\*\*[View Portfolio](https://www.helderbalbino.com/)
 
 ## 👨‍💻 About Me
 
