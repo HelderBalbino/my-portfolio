@@ -11,7 +11,7 @@ const testimonials = [
 	{
 		name: 'Natalie Porter',
 		position: 'Director of Employee Experience at NTT Data.',
-		text: "'I had the pleasure of working with Helder during the Tech Native Digital Web Development Bootcamp. He is easy-going, communicative, and a great team player. Working with him was always smooth and productive, brings a positive attitude and collaborates well with others. I’m confident he will be a valuable asset to any team I’m excited to see where Helder takes his skills next. With his focus and determination, I have no doubt he’ll make a valuable impact wherever he goes.'",
+		text: "'Over the past year, I’ve had the opportunity to watch Helder commit himself fully to learning and growing his skills set. His dedication has been nothing short of impressive. Balancing a full-time job while attending a demanding boot camp is no small feat. What stands out even more is that his drive didn’t stop when the boot camp ended. Helder has continued to study and develop his abilities on his own, showing a level of persistence and self-motivation that’s truly admirable. It’s been inspiring to witness his journey and progress. I’m confident he will be a valuable asset to any team I’m excited to see where Helder takes his skills next. With his focus and determination, I have no doubt he’ll make a valuable impact wherever he goes.'",
 		avatar: memojiAvatar1,
 	},
 	{
