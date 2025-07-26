@@ -11,7 +11,7 @@ const testimonials = [
 	{
 		name: 'Natalie Porter',
 		position: 'Director of Employee Experience at NTT Data.',
-		text: "'I had the pleasure of working with Helder during the Tech Native Digital Web Development Bootcamp. He is easy-going, communicative, and a great team player. Working with him was always smooth and productive, brings a positive attitude and collaborates well with others. I’m confident he will be a valuable asset to any team.",
+		text: "'I had the pleasure of working with Helder during the Tech Native Digital Web Development Bootcamp. He is easy-going, communicative, and a great team player. Working with him was always smooth and productive, brings a positive attitude and collaborates well with others. I’m confident he will be a valuable asset to any team'",
 		avatar: memojiAvatar1,
 	},
 	{
