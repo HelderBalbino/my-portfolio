@@ -11,7 +11,7 @@ const testimonials = [
 	{
 		name: 'Natalie Porter',
 		position: 'Director of Employee Experience at NTT Data.',
-		text: "",
+		text: '',
 		avatar: memojiAvatar1,
 	},
 	{
