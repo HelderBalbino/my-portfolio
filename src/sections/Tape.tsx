@@ -16,7 +16,6 @@ const words = [
 	'Optimized',
 	'Innovative',
 	'Intuitive',
-	'Robust',
 ];
 
 export const TapeSection = () => {
