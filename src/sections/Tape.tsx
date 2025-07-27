@@ -13,6 +13,7 @@ const words = [
 	'Search Optimized',
 	'Usable',
 	'Reliable',
+	'Optimized',
 ];
 
 export const TapeSection = () => {
