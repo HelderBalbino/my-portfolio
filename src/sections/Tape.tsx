@@ -2,7 +2,6 @@ import StarIcon from '@/assets/icons/star.svg';
 import { Fragment } from 'react';
 
 const words = [
-	'Performant',
 	'Accessible',
 	'Secure',
 	'Interactive',
